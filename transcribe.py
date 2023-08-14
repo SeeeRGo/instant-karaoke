@@ -1,5 +1,12 @@
 import whisper
 from manim import *
+from spleeter.separator import Separator
+import ffmpeg
+
+def separate_file(filename):
+  separator = Separator('spleeter:2stems')
+
+  separator.separate_to_file(filename, '/output/')
 
 def transcribe_file(filename):
   model = whisper.load_model("base.en")
@@ -18,19 +25,32 @@ def transcribe_file(filename):
 class IterateColor(Scene):
     def construct(self):
       segments = transcribe_file("Kitty In A Casket - Cold Black Heart.mp3")
+      # transcribe_file("Kitty In A Casket - Cold Black Heart.mp3")
+
+
       # for (text, duration) in lines:
       #    self.animate_line(text, duration)
       for segment in segments:
         words = segment['words']
         # print('text: ', segment['text'])
+        # print('words: ', segment['words'])
         # text1_mob = Text(segment['text'], font_size=24)
         # self.add(text1_mob)
+        texts = []
         for word in words:
           # print('word: ', word['word'], 'start: ', word['start'], 'end: ', word['end'])
-          text1_mob = Text(word['word'], font_size=24)
-          self.add(text1_mob)   
-          self.play(text1_mob.animate.set_color(RED), run_time=(word['end'] - word['start']))
-          self.remove(text1_mob)
+          
+          texts.append((Text(word['word'], font_size=24), word['end'] - word['start']))
+
+        # print(texts)
+        for (word, duration) in texts:
+          self.add(word)
+          self.play(word.animate.set_color(RED), run_time=duration)
+          self.remove(word)
+          
+        # for (word, duration) in texts:
+
+        # for (word) in texts:
     def animate_line(self, text, duration):
         text1_mob = Text(text, font_size=24)
         self.add(text1_mob)
@@ -41,6 +61,12 @@ class IterateColor(Scene):
 # with tempconfig({"quality": "medium_quality", "preview": True}):
 scene = IterateColor()
 scene.render()
+
+input = ffmpeg.input('./media/videos/1080p60/IterateColor.mp4')
+audio = ffmpeg.input('/output/Kitty In A Casket - Cold Black Heart/accompaniment.wav')
+# audio = ffmpeg.input('Kitty In A Casket - Cold Black Heart.mp3')
+# video = input.video.hflip()
+out = ffmpeg.output(audio, input, 'out.mp4', codec='copy').run()
 #   print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
 # for segment in segments:
 #     print("[%.2fs -> %.2fs] %s" % (segment.start, segment.end, segment.text))
