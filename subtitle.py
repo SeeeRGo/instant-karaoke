@@ -1,30 +1,32 @@
+import whisper
 from manim import *
-from datetime import datetime
 
-def parse_subtitle(filename):
-  file1 = open(filename, 'r')
-  Lines = list(filter(lambda line: len(line.strip()) > 0, file1.readlines()))
-  fmt = '%M:%S.%f'
-  diffs = filter(lambda line: len(line.strip().split('-->')) > 1, Lines)
-  texts = list(filter(lambda line: len(line.strip().split('-->')) == 1, Lines))
-  texts = list(map(lambda str: str.strip(), texts))
-  diffs = list(diffs)
-  res = []
-  for diff in diffs:
-    dates = list(map(lambda str: datetime.strptime(str.strip(), fmt), diff.strip().split('-->')))
-    res.append((dates[1] - dates[0]).seconds)
-
-  return list(zip(texts, res))
+def transcribe_file(filename):
+  model = whisper.load_model("base.en")
+  result = model.transcribe(filename, word_timestamps=True)
+  return result['segments']
 
 class IterateColor(Scene):
     def construct(self):
-      lines = parse_subtitle('01 - Bela Kiss.vtt')
-      for (text, duration) in lines:
-         self.animate_line(text, duration)
+      segments = transcribe_file("Kitty In A Casket - Cold Black Heart.mp3")
+      last_end = 0
+      for segment in segments:
+        words = segment['words']
+        texts = []
+        for word in words:
+          # print('word: ', word['word'], 'start: ', word['start'], 'end: ', word['end'])
+          
+          texts.append((Text(word['word'], font_size=24), word['end'] - word['start'], word['start'] - last_end))
+          last_end = word['end']
 
-    def animate_line(self, text, duration):
-        text1_mob = Text(text, font_size=24)
-        self.add(text1_mob)
-        for word in text1_mob.split():
-          self.play(word.animate.set_color(RED), run_time=duration/len(text1_mob.split()))
-        self.remove(text1_mob)
+        # print(texts)
+        for (word, duration, wait) in texts:
+          print('duration:', duration, 'wait: ', wait)
+          self.add(word)
+          # if wait > 0:
+          #   self.wait(wait)
+          self.play(word.animate.set_color(RED), run_time=duration)
+          self.remove(word)
+
+scene = IterateColor()
+scene.render()
