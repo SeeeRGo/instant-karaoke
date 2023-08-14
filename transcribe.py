@@ -13,7 +13,7 @@ def separate_file(filename):
   separator.separate_to_file(filename, './output')
 
 def transcribe_file(filename):
-  model = whisper.load_model("base.en")
+  model = whisper.load_model("medium.en")
   result = model.transcribe(filename, word_timestamps=True)
   return result['segments']
 
