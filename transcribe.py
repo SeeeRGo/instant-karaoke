@@ -31,7 +31,8 @@ class IterateColor(Scene):
       filename = "Kitty In A Casket - Cold Black Heart.mp3"
       segments = transcribe_file(filename)
       separate_file(filename)
-
+      
+      last_end = 0
       for segment in segments:
         word_list_parsed = []
         word_list = segment['words']
