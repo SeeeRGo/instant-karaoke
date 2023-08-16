@@ -1,0 +1,1260 @@
+{'text': " She's a left-out misfit, a stranger in the dark Always walking by herself, never taking part Ain't no storyteller standing her ground Softly strumming her guitar and weeping to the sound Staring on, her factional flow Carries all the weight right underneath her masquerade She is like a star on the rise A statue with her angel eyes She's gonna break your heart before you even know She's like a fire in the hole Gonna steal away your soul Like I told you from the start She's a pale girl with a cold black heart She's sitting in the corner, black coffee on her lips Cigarette is hanging in between her fingertips She's someone of a goddess in that mini dress Look closely in her eyes, they are screaming SOS, scars and sin The taste of her blood, comfort and pain Testified, screams invade She is like a star on the rise A statue with her angel eyes She's gonna break your heart before you even know She's like a fire in the hole Gonna steal away your soul Like I told you from the start She's a pale girl with a cold black heart Woah, woah, woah, woah, woah She's a pale girl with a cold black heart Woah, woah, woah, woah, woah She's a pale girl with a cold black heart Woah, woah, woah, woah, woah When it hurts the most She's all alone, won't let anyone close A tiny spark of life, a taste of sky Losing herself, takes a breath for the very first time She is like a star on the rise A statue with her angel eyes She's gonna break your heart before you even know She's like a fire in the hole Gonna steal away your soul Like I told you from the start She's a pale girl with a cold black heart Woah, woah, woah, woah, woah She's a pale girl with a cold black heart Woah, woah, woah, woah, woah She's a pale girl with a cold black heart", 'segments': [
+    {'id': 0, 'seek': 0, 'start': 8.06, 'end': 12.3, 'text': " She's a left-out misfit, a stranger in the dark", 'tokens': [
+        50364,
+        1240,
+        311,
+        257,
+        1411,
+        12,
+        346,
+        3346,
+        6845,
+        11,
+        257,
+        18834,
+        294,
+        264,
+        2877,
+        51056
+      ], 'temperature': 0.0, 'avg_logprob': -0.48373504638671877, 'compression_ratio': 1.3676470588235294, 'no_speech_prob': 0.6809809803962708, 'words': [
+        {'word': " She's", 'start': 8.06, 'end': 8.92, 'probability': 0.5810666307806969
+        },
+        {'word': ' a', 'start': 8.92, 'end': 9.08, 'probability': 0.940233051776886
+        },
+        {'word': ' left', 'start': 9.08, 'end': 9.3, 'probability': 0.7480530738830566
+        },
+        {'word': '-out', 'start': 9.3, 'end': 9.6, 'probability': 0.37886786460876465
+        },
+        {'word': ' misfit,', 'start': 9.6, 'end': 10.22, 'probability': 0.6659055799245834
+        },
+        {'word': ' a', 'start': 10.62, 'end': 10.88, 'probability': 0.8646730184555054
+        },
+        {'word': ' stranger', 'start': 10.88, 'end': 11.3, 'probability': 0.8415998816490173
+        },
+        {'word': ' in', 'start': 11.3, 'end': 11.68, 'probability': 0.9075226187705994
+        },
+        {'word': ' the', 'start': 11.68, 'end': 11.8, 'probability': 0.8113252520561218
+        },
+        {'word': ' dark', 'start': 11.8, 'end': 12.3, 'probability': 0.8192504048347473
+        }
+      ]
+    },
+    {'id': 1, 'seek': 0, 'start': 13.84, 'end': 22.08, 'text': " Always walking by herself, never taking part Ain't no storyteller standing her ground", 'tokens': [
+        51056,
+        11270,
+        4494,
+        538,
+        7530,
+        11,
+        1128,
+        1940,
+        644,
+        29672,
+        380,
+        572,
+        17541,
+        14983,
+        4877,
+        720,
+        2727,
+        51506
+      ], 'temperature': 0.0, 'avg_logprob': -0.48373504638671877, 'compression_ratio': 1.3676470588235294, 'no_speech_prob': 0.6809809803962708, 'words': [
+        {'word': ' Always', 'start': 13.47, 'end': 13.9, 'probability': 0.5926788449287415
+        },
+        {'word': ' walking', 'start': 13.9, 'end': 14.5, 'probability': 0.6956386566162109
+        },
+        {'word': ' by', 'start': 14.5, 'end': 14.92, 'probability': 0.8887557983398438
+        },
+        {'word': ' herself,', 'start': 14.92, 'end': 15.64, 'probability': 0.452548086643219
+        },
+        {'word': ' never', 'start': 15.78, 'end': 16.22, 'probability': 0.8679684400558472
+        },
+        {'word': ' taking', 'start': 16.22, 'end': 16.88, 'probability': 0.8181412220001221
+        },
+        {'word': ' part', 'start': 16.88, 'end': 18.44, 'probability': 0.8284233808517456
+        },
+        {'word': " Ain't", 'start': 18.44, 'end': 18.86, 'probability': 0.9117140769958496
+        },
+        {'word': ' no', 'start': 18.86, 'end': 19.12, 'probability': 0.9029697775840759
+        },
+        {'word': ' storyteller', 'start': 19.12, 'end': 19.98, 'probability': 0.784341424703598
+        },
+        {'word': ' standing', 'start': 19.98, 'end': 21.04, 'probability': 0.6523500084877014
+        },
+        {'word': ' her', 'start': 21.04, 'end': 21.58, 'probability': 0.8859557509422302
+        },
+        {'word': ' ground', 'start': 21.58, 'end': 22.08, 'probability': 0.8546193242073059
+        }
+      ]
+    },
+    {'id': 2, 'seek': 0, 'start': 22.84, 'end': 27.18, 'text': ' Softly strumming her guitar and weeping to the sound', 'tokens': [
+        51506,
+        16985,
+        356,
+        47338,
+        2810,
+        720,
+        7531,
+        293,
+        321,
+        10921,
+        281,
+        264,
+        1626,
+        51724
+      ], 'temperature': 0.0, 'avg_logprob': -0.48373504638671877, 'compression_ratio': 1.3676470588235294, 'no_speech_prob': 0.6809809803962708, 'words': [
+        {'word': ' Softly', 'start': 22.84, 'end': 23.7, 'probability': 0.8866144120693207
+        },
+        {'word': ' strumming', 'start': 23.7, 'end': 24.3, 'probability': 0.7547987401485443
+        },
+        {'word': ' her', 'start': 24.3, 'end': 24.72, 'probability': 0.8940699100494385
+        },
+        {'word': ' guitar', 'start': 24.72, 'end': 25.32, 'probability': 0.7249265313148499
+        },
+        {'word': ' and', 'start': 25.32, 'end': 25.6, 'probability': 0.655253529548645
+        },
+        {'word': ' weeping', 'start': 25.6, 'end': 26.2, 'probability': 0.7832093238830566
+        },
+        {'word': ' to', 'start': 26.2, 'end': 26.5, 'probability': 0.8125035762786865
+        },
+        {'word': ' the', 'start': 26.5, 'end': 26.78, 'probability': 0.8142914175987244
+        },
+        {'word': ' sound', 'start': 26.78, 'end': 27.18, 'probability': 0.5858210921287537
+        }
+      ]
+    },
+    {'id': 3, 'seek': 2718, 'start': 27.18, 'end': 34.78, 'text': ' Staring on, her factional flow Carries all the weight right underneath her', 'tokens': [
+        50364,
+        745,
+        1921,
+        322,
+        11,
+        720,
+        1186,
+        1966,
+        3095,
+        2741,
+        2244,
+        439,
+        264,
+        3364,
+        558,
+        7223,
+        720,
+        50740
+      ], 'temperature': 0.0, 'avg_logprob': -0.424261474609375, 'compression_ratio': 1.5380434782608696, 'no_speech_prob': 0.02354360558092594, 'words': [
+        {'word': ' Staring', 'start': 27.18, 'end': 27.84, 'probability': 0.34004952758550644
+        },
+        {'word': ' on,', 'start': 27.84, 'end': 28.52, 'probability': 0.420127272605896
+        },
+        {'word': ' her', 'start': 29.7, 'end': 29.88, 'probability': 0.02330506406724453
+        },
+        {'word': ' factional', 'start': 29.88, 'end': 30.36, 'probability': 0.597583457827568
+        },
+        {'word': ' flow', 'start': 30.36, 'end': 30.86, 'probability': 0.7153716683387756
+        },
+        {'word': ' Carries', 'start': 30.86, 'end': 32.62, 'probability': 0.6912794560194016
+        },
+        {'word': ' all', 'start': 32.62, 'end': 32.82, 'probability': 0.8897727131843567
+        },
+        {'word': ' the', 'start': 32.82, 'end': 32.96, 'probability': 0.770233690738678
+        },
+        {'word': ' weight', 'start': 32.96, 'end': 33.34, 'probability': 0.8767746686935425
+        },
+        {'word': ' right', 'start': 33.34, 'end': 33.64, 'probability': 0.6154165267944336
+        },
+        {'word': ' underneath', 'start': 33.64, 'end': 34.44, 'probability': 0.8328158855438232
+        },
+        {'word': ' her', 'start': 34.44, 'end': 34.78, 'probability': 0.806110680103302
+        }
+      ]
+    },
+    {'id': 4, 'seek': 2718, 'start': 34.78, 'end': 39.38, 'text': ' masquerade She is like a star on the rise', 'tokens': [
+        50740,
+        2300,
+        8035,
+        762,
+        1240,
+        307,
+        411,
+        257,
+        3543,
+        322,
+        264,
+        6272,
+        50992
+      ], 'temperature': 0.0, 'avg_logprob': -0.424261474609375, 'compression_ratio': 1.5380434782608696, 'no_speech_prob': 0.02354360558092594, 'words': [
+        {'word': ' masquerade', 'start': 34.78, 'end': 36.02, 'probability': 0.9371482729911804
+        },
+        {'word': ' She', 'start': 36.02, 'end': 36.74, 'probability': 0.8175020813941956
+        },
+        {'word': ' is', 'start': 36.74, 'end': 37.18, 'probability': 0.6769437789916992
+        },
+        {'word': ' like', 'start': 37.18, 'end': 37.54, 'probability': 0.856378436088562
+        },
+        {'word': ' a', 'start': 37.54, 'end': 37.8, 'probability': 0.8801903128623962
+        },
+        {'word': ' star', 'start': 37.8, 'end': 38.18, 'probability': 0.8320909738540649
+        },
+        {'word': ' on', 'start': 38.18, 'end': 38.64, 'probability': 0.7941979169845581
+        },
+        {'word': ' the', 'start': 38.64, 'end': 38.92, 'probability': 0.8184643983840942
+        },
+        {'word': ' rise', 'start': 38.92, 'end': 39.38, 'probability': 0.9338129758834839
+        }
+      ]
+    },
+    {'id': 5, 'seek': 2718, 'start': 39.38, 'end': 44.88, 'text': " A statue with her angel eyes She's gonna break your heart before you even", 'tokens': [
+        50992,
+        316,
+        17385,
+        365,
+        720,
+        14250,
+        2575,
+        1240,
+        311,
+        799,
+        1821,
+        428,
+        1917,
+        949,
+        291,
+        754,
+        51256
+      ], 'temperature': 0.0, 'avg_logprob': -0.424261474609375, 'compression_ratio': 1.5380434782608696, 'no_speech_prob': 0.02354360558092594, 'words': [
+        {'word': ' A', 'start': 39.38, 'end': 39.82, 'probability': 0.1249886304140091
+        },
+        {'word': ' statue', 'start': 39.82, 'end': 40.3, 'probability': 0.653491199016571
+        },
+        {'word': ' with', 'start': 40.3, 'end': 40.86, 'probability': 0.6590830087661743
+        },
+        {'word': ' her', 'start': 40.86, 'end': 40.94, 'probability': 0.7993667125701904
+        },
+        {'word': ' angel', 'start': 40.94, 'end': 41.2, 'probability': 0.8189220428466797
+        },
+        {'word': ' eyes', 'start': 41.2, 'end': 41.9, 'probability': 0.864408552646637
+        },
+        {'word': " She's", 'start': 41.9, 'end': 42.46, 'probability': 0.9060377776622772
+        },
+        {'word': ' gonna', 'start': 42.46, 'end': 42.66, 'probability': 0.7513254284858704
+        },
+        {'word': ' break', 'start': 42.66, 'end': 43.02, 'probability': 0.9182742834091187
+        },
+        {'word': ' your', 'start': 43.02, 'end': 43.3, 'probability': 0.8025423288345337
+        },
+        {'word': ' heart', 'start': 43.3, 'end': 43.62, 'probability': 0.8821072578430176
+        },
+        {'word': ' before', 'start': 43.62, 'end': 44.06, 'probability': 0.7976697087287903
+        },
+        {'word': ' you', 'start': 44.06, 'end': 44.36, 'probability': 0.8936359286308289
+        },
+        {'word': ' even', 'start': 44.36, 'end': 44.88, 'probability': 0.8254142999649048
+        }
+      ]
+    },
+    {'id': 6, 'seek': 2718, 'start': 44.88, 'end': 49.12, 'text': " know She's like a fire in the hole", 'tokens': [
+        51256,
+        458,
+        1240,
+        311,
+        411,
+        257,
+        2610,
+        294,
+        264,
+        5458,
+        51476
+      ], 'temperature': 0.0, 'avg_logprob': -0.424261474609375, 'compression_ratio': 1.5380434782608696, 'no_speech_prob': 0.02354360558092594, 'words': [
+        {'word': ' know', 'start': 44.88, 'end': 45.86, 'probability': 0.8054503202438354
+        },
+        {'word': " She's", 'start': 45.86, 'end': 46.98, 'probability': 0.9125518202781677
+        },
+        {'word': ' like', 'start': 46.98, 'end': 47.32, 'probability': 0.8641545176506042
+        },
+        {'word': ' a', 'start': 47.32, 'end': 47.6, 'probability': 0.980977475643158
+        },
+        {'word': ' fire', 'start': 47.6, 'end': 47.98, 'probability': 0.7571374773979187
+        },
+        {'word': ' in', 'start': 47.98, 'end': 48.44, 'probability': 0.9071435928344727
+        },
+        {'word': ' the', 'start': 48.44, 'end': 48.76, 'probability': 0.7284970283508301
+        },
+        {'word': ' hole', 'start': 48.76, 'end': 49.12, 'probability': 0.7320646643638611
+        }
+      ]
+    },
+    {'id': 7, 'seek': 2718, 'start': 49.12, 'end': 54.2, 'text': ' Gonna steal away your soul Like I told you from the start', 'tokens': [
+        51476,
+        20341,
+        11009,
+        1314,
+        428,
+        5133,
+        1743,
+        286,
+        1907,
+        291,
+        490,
+        264,
+        722,
+        51732
+      ], 'temperature': 0.0, 'avg_logprob': -0.424261474609375, 'compression_ratio': 1.5380434782608696, 'no_speech_prob': 0.02354360558092594, 'words': [
+        {'word': ' Gonna', 'start': 49.12, 'end': 49.72, 'probability': 0.7583335041999817
+        },
+        {'word': ' steal', 'start': 49.72, 'end': 50.4, 'probability': 0.7063270807266235
+        },
+        {'word': ' away', 'start': 50.4, 'end': 50.82, 'probability': 0.8279737830162048
+        },
+        {'word': ' your', 'start': 50.82, 'end': 51.12, 'probability': 0.8110806941986084
+        },
+        {'word': ' soul', 'start': 51.12, 'end': 51.52, 'probability': 0.8171185255050659
+        },
+        {'word': ' Like', 'start': 51.52, 'end': 52.1, 'probability': 0.7508901953697205
+        },
+        {'word': ' I', 'start': 52.1, 'end': 52.46, 'probability': 0.9676975607872009
+        },
+        {'word': ' told', 'start': 52.46, 'end': 52.82, 'probability': 0.8493932485580444
+        },
+        {'word': ' you', 'start': 52.82, 'end': 53.0, 'probability': 0.8603942394256592
+        },
+        {'word': ' from', 'start': 53.0, 'end': 53.32, 'probability': 0.8276058435440063
+        },
+        {'word': ' the', 'start': 53.32, 'end': 53.6, 'probability': 0.8122450113296509
+        },
+        {'word': ' start', 'start': 53.6, 'end': 54.2, 'probability': 0.8755151033401489
+        }
+      ]
+    },
+    {'id': 8, 'seek': 5420, 'start': 54.2, 'end': 57.18, 'text': " She's a pale girl with a cold black heart", 'tokens': [
+        50384,
+        1240,
+        311,
+        257,
+        19546,
+        2013,
+        365,
+        257,
+        3554,
+        2211,
+        1917,
+        50532
+      ], 'temperature': 0.0, 'avg_logprob': -0.474860075748328, 'compression_ratio': 1.5, 'no_speech_prob': 0.01637205481529236, 'words': [
+        {'word': " She's", 'start': 54.2, 'end': 54.86, 'probability': 0.534325759857893
+        },
+        {'word': ' a', 'start': 54.86, 'end': 55.0, 'probability': 0.8369697332382202
+        },
+        {'word': ' pale', 'start': 55.0, 'end': 55.4, 'probability': 0.4312014579772949
+        },
+        {'word': ' girl', 'start': 55.4, 'end': 55.82, 'probability': 0.8109175562858582
+        },
+        {'word': ' with', 'start': 55.82, 'end': 56.04, 'probability': 0.7930653691291809
+        },
+        {'word': ' a', 'start': 56.04, 'end': 56.2, 'probability': 0.9777852296829224
+        },
+        {'word': ' cold', 'start': 56.2, 'end': 56.42, 'probability': 0.8080763220787048
+        },
+        {'word': ' black', 'start': 56.42, 'end': 56.74, 'probability': 0.7224442958831787
+        },
+        {'word': ' heart', 'start': 56.74, 'end': 57.18, 'probability': 0.8786969780921936
+        }
+      ]
+    },
+    {'id': 9, 'seek': 5420, 'start': 62.760000000000005, 'end': 66.22, 'text': " She's sitting in the corner, black coffee on her lips", 'tokens': [
+        50792,
+        1240,
+        311,
+        3798,
+        294,
+        264,
+        4538,
+        11,
+        2211,
+        4982,
+        322,
+        720,
+        10118,
+        51008
+      ], 'temperature': 0.0, 'avg_logprob': -0.474860075748328, 'compression_ratio': 1.5, 'no_speech_prob': 0.01637205481529236, 'words': [
+        {'word': " She's", 'start': 62.54, 'end': 62.9, 'probability': 0.6473049223423004
+        },
+        {'word': ' sitting', 'start': 62.9, 'end': 63.22, 'probability': 0.7953817248344421
+        },
+        {'word': ' in', 'start': 63.22, 'end': 63.38, 'probability': 0.8974525332450867
+        },
+        {'word': ' the', 'start': 63.38, 'end': 63.52, 'probability': 0.7036441564559937
+        },
+        {'word': ' corner,', 'start': 63.52, 'end': 64.04, 'probability': 0.8301990032196045
+        },
+        {'word': ' black', 'start': 64.42, 'end': 64.7, 'probability': 0.8322086930274963
+        },
+        {'word': ' coffee', 'start': 64.7, 'end': 65.22, 'probability': 0.8533354997634888
+        },
+        {'word': ' on', 'start': 65.22, 'end': 65.54, 'probability': 0.8973433375358582
+        },
+        {'word': ' her', 'start': 65.54, 'end': 65.74, 'probability': 0.8653258681297302
+        },
+        {'word': ' lips', 'start': 65.74, 'end': 66.22, 'probability': 0.6005542874336243
+        }
+      ]
+    },
+    {'id': 10, 'seek': 5420, 'start': 67.22, 'end': 75.98, 'text': " Cigarette is hanging in between her fingertips She's someone of a goddess in that mini dress", 'tokens': [
+        51008,
+        383,
+        328,
+        23362,
+        307,
+        8345,
+        294,
+        1296,
+        720,
+        27715,
+        1240,
+        311,
+        1580,
+        295,
+        257,
+        24508,
+        294,
+        300,
+        8382,
+        5231,
+        51484
+      ], 'temperature': 0.0, 'avg_logprob': -0.474860075748328, 'compression_ratio': 1.5, 'no_speech_prob': 0.01637205481529236, 'words': [
+        {'word': ' Cigarette', 'start': 67.22, 'end': 67.94, 'probability': 0.4523461063702901
+        },
+        {'word': ' is', 'start': 67.94, 'end': 68.44, 'probability': 0.7945136427879333
+        },
+        {'word': ' hanging', 'start': 68.44, 'end': 68.98, 'probability': 0.6987179517745972
+        },
+        {'word': ' in', 'start': 68.98, 'end': 69.46, 'probability': 0.8386809229850769
+        },
+        {'word': ' between', 'start': 69.46, 'end': 69.92, 'probability': 0.7198820114135742
+        },
+        {'word': ' her', 'start': 69.92, 'end': 70.28, 'probability': 0.8218676447868347
+        },
+        {'word': ' fingertips', 'start': 70.28, 'end': 70.98, 'probability': 0.7587090730667114
+        },
+        {'word': " She's", 'start': 70.98, 'end': 72.68, 'probability': 0.8772909641265869
+        },
+        {'word': ' someone', 'start': 72.68, 'end': 73.0, 'probability': 0.7059158086776733
+        },
+        {'word': ' of', 'start': 73.0, 'end': 73.22, 'probability': 0.8869615197181702
+        },
+        {'word': ' a', 'start': 73.22, 'end': 73.36, 'probability': 0.9774267673492432
+        },
+        {'word': ' goddess', 'start': 73.36, 'end': 73.72, 'probability': 0.7212722301483154
+        },
+        {'word': ' in', 'start': 73.72, 'end': 74.78, 'probability': 0.5156199932098389
+        },
+        {'word': ' that', 'start': 74.78, 'end': 75.14, 'probability': 0.8714612722396851
+        },
+        {'word': ' mini', 'start': 75.14, 'end': 75.34, 'probability': 0.8228777050971985
+        },
+        {'word': ' dress', 'start': 75.34, 'end': 75.98, 'probability': 0.7142417430877686
+        }
+      ]
+    },
+    {'id': 11, 'seek': 5420, 'start': 76.60000000000001, 'end': 82.16, 'text': ' Look closely in her eyes, they are screaming SOS, scars and sin', 'tokens': [
+        51484,
+        2053,
+        8185,
+        294,
+        720,
+        2575,
+        11,
+        436,
+        366,
+        12636,
+        318,
+        4367,
+        11,
+        31353,
+        293,
+        3343,
+        51836
+      ], 'temperature': 0.0, 'avg_logprob': -0.474860075748328, 'compression_ratio': 1.5, 'no_speech_prob': 0.01637205481529236, 'words': [
+        {'word': ' Look', 'start': 76.56, 'end': 76.92, 'probability': 0.7626442909240723
+        },
+        {'word': ' closely', 'start': 76.92, 'end': 77.58, 'probability': 0.7994906306266785
+        },
+        {'word': ' in', 'start': 77.58, 'end': 78.02, 'probability': 0.6175211668014526
+        },
+        {'word': ' her', 'start': 78.02, 'end': 78.22, 'probability': 0.9061046242713928
+        },
+        {'word': ' eyes,', 'start': 78.22, 'end': 78.78, 'probability': 0.8307617902755737
+        },
+        {'word': ' they', 'start': 78.94, 'end': 79.22, 'probability': 0.628121018409729
+        },
+        {'word': ' are', 'start': 79.22, 'end': 79.4, 'probability': 0.7942121624946594
+        },
+        {'word': ' screaming', 'start': 79.4, 'end': 79.94, 'probability': 0.7288926839828491
+        },
+        {'word': ' SOS,', 'start': 79.94, 'end': 81.14, 'probability': 0.6972243785858154
+        },
+        {'word': ' scars', 'start': 81.4, 'end': 81.66, 'probability': 0.7102422714233398
+        },
+        {'word': ' and', 'start': 81.66, 'end': 81.86, 'probability': 0.7090874910354614
+        },
+        {'word': ' sin', 'start': 81.86, 'end': 82.16, 'probability': 0.5774204730987549
+        }
+      ]
+    },
+    {'id': 12, 'seek': 8216, 'start': 82.91999999999999, 'end': 89.76, 'text': ' The taste of her blood, comfort and pain Testified, screams invade', 'tokens': [
+        50412,
+        440,
+        3939,
+        295,
+        720,
+        3390,
+        11,
+        3400,
+        293,
+        1822,
+        9279,
+        2587,
+        11,
+        22832,
+        39171,
+        50764
+      ], 'temperature': 0.0, 'avg_logprob': -0.3419210910797119, 'compression_ratio': 1.5692307692307692, 'no_speech_prob': 0.009041628800332546, 'words': [
+        {'word': ' The', 'start': 82.91999999999999, 'end': 83.66, 'probability': 0.13021370768547058
+        },
+        {'word': ' taste', 'start': 83.66, 'end': 84.08, 'probability': 0.8187738060951233
+        },
+        {'word': ' of', 'start': 84.08, 'end': 84.26, 'probability': 0.8813562989234924
+        },
+        {'word': ' her', 'start': 84.26, 'end': 84.52, 'probability': 0.03287094831466675
+        },
+        {'word': ' blood,', 'start': 84.52, 'end': 84.86, 'probability': 0.6847234964370728
+        },
+        {'word': ' comfort', 'start': 85.82, 'end': 86.48, 'probability': 0.7955922484397888
+        },
+        {'word': ' and', 'start': 86.48, 'end': 86.84, 'probability': 0.48779281973838806
+        },
+        {'word': ' pain', 'start': 86.84, 'end': 87.32, 'probability': 0.9140810966491699
+        },
+        {'word': ' Testified,', 'start': 87.32, 'end': 88.42, 'probability': 0.3650059551000595
+        },
+        {'word': ' screams', 'start': 88.52, 'end': 88.98, 'probability': 0.32468658685684204
+        },
+        {'word': ' invade', 'start': 88.98, 'end': 89.76, 'probability': 0.4980023205280304
+        }
+      ]
+    },
+    {'id': 13, 'seek': 8216, 'start': 89.76, 'end': 95.78, 'text': ' She is like a star on the rise A statue with her angel eyes', 'tokens': [
+        50764,
+        1240,
+        307,
+        411,
+        257,
+        3543,
+        322,
+        264,
+        6272,
+        316,
+        17385,
+        365,
+        720,
+        14250,
+        2575,
+        51052
+      ], 'temperature': 0.0, 'avg_logprob': -0.3419210910797119, 'compression_ratio': 1.5692307692307692, 'no_speech_prob': 0.009041628800332546, 'words': [
+        {'word': ' She', 'start': 89.76, 'end': 90.56, 'probability': 0.7493911385536194
+        },
+        {'word': ' is', 'start': 90.56, 'end': 91.06, 'probability': 0.7526604533195496
+        },
+        {'word': ' like', 'start': 91.06, 'end': 91.4, 'probability': 0.8608231544494629
+        },
+        {'word': ' a', 'start': 91.4, 'end': 91.64, 'probability': 0.403922438621521
+        },
+        {'word': ' star', 'start': 91.64, 'end': 92.06, 'probability': 0.7611335515975952
+        },
+        {'word': ' on', 'start': 92.06, 'end': 92.54, 'probability': 0.6903878450393677
+        },
+        {'word': ' the', 'start': 92.54, 'end': 92.8, 'probability': 0.8091966509819031
+        },
+        {'word': ' rise', 'start': 92.8, 'end': 93.26, 'probability': 0.9192386865615845
+        },
+        {'word': ' A', 'start': 93.26, 'end': 93.78, 'probability': 0.17262426018714905
+        },
+        {'word': ' statue', 'start': 93.78, 'end': 94.16, 'probability': 0.054199960082769394
+        },
+        {'word': ' with', 'start': 94.16, 'end': 94.66, 'probability': 0.6798149943351746
+        },
+        {'word': ' her', 'start': 94.66, 'end': 94.84, 'probability': 0.22320713102817535
+        },
+        {'word': ' angel', 'start': 94.84, 'end': 95.1, 'probability': 0.8931535482406616
+        },
+        {'word': ' eyes', 'start': 95.1, 'end': 95.78, 'probability': 0.8727623820304871
+        }
+      ]
+    },
+    {'id': 14, 'seek': 8216, 'start': 95.78, 'end': 99.74, 'text': " She's gonna break your heart before you even know", 'tokens': [
+        51052,
+        1240,
+        311,
+        799,
+        1821,
+        428,
+        1917,
+        949,
+        291,
+        754,
+        458,
+        51272
+      ], 'temperature': 0.0, 'avg_logprob': -0.3419210910797119, 'compression_ratio': 1.5692307692307692, 'no_speech_prob': 0.009041628800332546, 'words': [
+        {'word': " She's", 'start': 95.78, 'end': 96.32, 'probability': 0.9123337864875793
+        },
+        {'word': ' gonna', 'start': 96.32, 'end': 96.52, 'probability': 0.7532232403755188
+        },
+        {'word': ' break', 'start': 96.52, 'end': 96.88, 'probability': 0.9367084503173828
+        },
+        {'word': ' your', 'start': 96.88, 'end': 97.18, 'probability': 0.8019570112228394
+        },
+        {'word': ' heart', 'start': 97.18, 'end': 97.5, 'probability': 0.8945339918136597
+        },
+        {'word': ' before', 'start': 97.5, 'end': 97.94, 'probability': 0.7711614370346069
+        },
+        {'word': ' you', 'start': 97.94, 'end': 98.22, 'probability': 0.8926504850387573
+        },
+        {'word': ' even', 'start': 98.22, 'end': 98.78, 'probability': 0.7959485650062561
+        },
+        {'word': ' know', 'start': 98.78, 'end': 99.74, 'probability': 0.767140805721283
+        }
+      ]
+    },
+    {'id': 15, 'seek': 8216, 'start': 100.32, 'end': 105.46, 'text': " She's like a fire in the hole Gonna steal away your soul", 'tokens': [
+        51272,
+        1240,
+        311,
+        411,
+        257,
+        2610,
+        294,
+        264,
+        5458,
+        20341,
+        11009,
+        1314,
+        428,
+        5133,
+        51532
+      ], 'temperature': 0.0, 'avg_logprob': -0.3419210910797119, 'compression_ratio': 1.5692307692307692, 'no_speech_prob': 0.009041628800332546, 'words': [
+        {'word': " She's", 'start': 100.32, 'end': 100.86, 'probability': 0.9182917773723602
+        },
+        {'word': ' like', 'start': 100.86, 'end': 101.22, 'probability': 0.8638716340065002
+        },
+        {'word': ' a', 'start': 101.22, 'end': 101.48, 'probability': 0.976780354976654
+        },
+        {'word': ' fire', 'start': 101.48, 'end': 101.84, 'probability': 0.8267179727554321
+        },
+        {'word': ' in', 'start': 101.84, 'end': 102.3, 'probability': 0.8723323941230774
+        },
+        {'word': ' the', 'start': 102.3, 'end': 102.62, 'probability': 0.7490631937980652
+        },
+        {'word': ' hole', 'start': 102.62, 'end': 102.98, 'probability': 0.683044970035553
+        },
+        {'word': ' Gonna', 'start': 102.98, 'end': 103.62, 'probability': 0.6820131540298462
+        },
+        {'word': ' steal', 'start': 103.62, 'end': 104.3, 'probability': 0.7043555974960327
+        },
+        {'word': ' away', 'start': 104.3, 'end': 104.72, 'probability': 0.8274416327476501
+        },
+        {'word': ' your', 'start': 104.72, 'end': 105.0, 'probability': 0.8113937973976135
+        },
+        {'word': ' soul', 'start': 105.0, 'end': 105.46, 'probability': 0.8148282766342163
+        }
+      ]
+    },
+    {'id': 16, 'seek': 8216, 'start': 105.46, 'end': 111.0, 'text': " Like I told you from the start She's a pale girl with a cold black heart", 'tokens': [
+        51532,
+        1743,
+        286,
+        1907,
+        291,
+        490,
+        264,
+        722,
+        1240,
+        311,
+        257,
+        19546,
+        2013,
+        365,
+        257,
+        3554,
+        2211,
+        1917,
+        51812
+      ], 'temperature': 0.0, 'avg_logprob': -0.3419210910797119, 'compression_ratio': 1.5692307692307692, 'no_speech_prob': 0.009041628800332546, 'words': [
+        {'word': ' Like', 'start': 105.46, 'end': 105.96, 'probability': 0.8337593674659729
+        },
+        {'word': ' I', 'start': 105.96, 'end': 106.26, 'probability': 0.4365869462490082
+        },
+        {'word': ' told', 'start': 106.26, 'end': 106.7, 'probability': 0.8404267430305481
+        },
+        {'word': ' you', 'start': 106.7, 'end': 106.86, 'probability': 0.7406160831451416
+        },
+        {'word': ' from', 'start': 106.86, 'end': 107.2, 'probability': 0.8212624788284302
+        },
+        {'word': ' the', 'start': 107.2, 'end': 107.46, 'probability': 0.8138391375541687
+        },
+        {'word': ' start', 'start': 107.46, 'end': 108.0, 'probability': 0.8736315369606018
+        },
+        {'word': " She's", 'start': 108.0, 'end': 108.74, 'probability': 0.9298374056816101
+        },
+        {'word': ' a', 'start': 108.74, 'end': 108.9, 'probability': 0.8280041217803955
+        },
+        {'word': ' pale', 'start': 108.9, 'end': 109.18, 'probability': 0.0006609013071283698
+        },
+        {'word': ' girl', 'start': 109.18, 'end': 109.76, 'probability': 0.61039137840271
+        },
+        {'word': ' with', 'start': 109.76, 'end': 109.96, 'probability': 0.7865604758262634
+        },
+        {'word': ' a', 'start': 109.96, 'end': 110.08, 'probability': 0.9760115146636963
+        },
+        {'word': ' cold', 'start': 110.08, 'end': 110.34, 'probability': 0.8447867035865784
+        },
+        {'word': ' black', 'start': 110.34, 'end': 110.66, 'probability': 0.6614558696746826
+        },
+        {'word': ' heart', 'start': 110.66, 'end': 111.0, 'probability': 0.8626893758773804
+        }
+      ]
+    },
+    {'id': 17, 'seek': 11100, 'start': 111.0, 'end': 120.76, 'text': " Woah, woah, woah, woah, woah She's a pale girl with a cold black heart", 'tokens': [
+        50364,
+        19668,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        1240,
+        311,
+        257,
+        19546,
+        2013,
+        365,
+        257,
+        3554,
+        2211,
+        1917,
+        50860
+      ], 'temperature': 0.0, 'avg_logprob': -0.35347625821135764, 'compression_ratio': 2.274193548387097, 'no_speech_prob': 0.3306494951248169, 'words': [
+        {'word': ' Woah,', 'start': 111.0, 'end': 111.62, 'probability': 0.044113121926784515
+        },
+        {'word': ' woah,', 'start': 112.4, 'end': 113.22, 'probability': 0.7343935966491699
+        },
+        {'word': ' woah,', 'start': 113.48, 'end': 114.24, 'probability': 0.7430498003959656
+        },
+        {'word': ' woah,', 'start': 114.96, 'end': 115.94, 'probability': 0.8713182806968689
+        },
+        {'word': ' woah', 'start': 115.94, 'end': 117.58, 'probability': 0.8084835410118103
+        },
+        {'word': " She's", 'start': 117.58, 'end': 118.58, 'probability': 0.7124863564968109
+        },
+        {'word': ' a', 'start': 118.58, 'end': 118.72, 'probability': 0.9469779133796692
+        },
+        {'word': ' pale', 'start': 118.72, 'end': 119.04, 'probability': 0.0023393442388623953
+        },
+        {'word': ' girl', 'start': 119.04, 'end': 119.58, 'probability': 0.7490737438201904
+        },
+        {'word': ' with', 'start': 119.58, 'end': 119.74, 'probability': 0.7703641653060913
+        },
+        {'word': ' a', 'start': 119.74, 'end': 119.88, 'probability': 0.899890661239624
+        },
+        {'word': ' cold', 'start': 119.88, 'end': 120.1, 'probability': 0.704372763633728
+        },
+        {'word': ' black', 'start': 120.1, 'end': 120.44, 'probability': 0.7257039546966553
+        },
+        {'word': ' heart', 'start': 120.44, 'end': 120.76, 'probability': 0.6538304090499878
+        }
+      ]
+    },
+    {'id': 18, 'seek': 11100, 'start': 120.76, 'end': 130.66, 'text': " Woah, woah, woah, woah, woah She's a pale girl with a cold black heart", 'tokens': [
+        50860,
+        19668,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        1240,
+        311,
+        257,
+        19546,
+        2013,
+        365,
+        257,
+        3554,
+        2211,
+        1917,
+        51356
+      ], 'temperature': 0.0, 'avg_logprob': -0.35347625821135764, 'compression_ratio': 2.274193548387097, 'no_speech_prob': 0.3306494951248169, 'words': [
+        {'word': ' Woah,', 'start': 120.76, 'end': 121.6, 'probability': 0.7626125812530518
+        },
+        {'word': ' woah,', 'start': 122.32, 'end': 123.46, 'probability': 0.9243804812431335
+        },
+        {'word': ' woah,', 'start': 124.7, 'end': 124.7, 'probability': 0.8825857639312744
+        },
+        {'word': ' woah,', 'start': 126.12, 'end': 126.12, 'probability': 0.8953233957290649
+        },
+        {'word': ' woah', 'start': 127.68, 'end': 127.68, 'probability': 0.8919657468795776
+        },
+        {'word': " She's", 'start': 127.68, 'end': 128.38, 'probability': 0.9338023364543915
+        },
+        {'word': ' a', 'start': 128.38, 'end': 128.54, 'probability': 0.9984952211380005
+        },
+        {'word': ' pale', 'start': 128.54, 'end': 128.98, 'probability': 0.6981139779090881
+        },
+        {'word': ' girl', 'start': 128.98, 'end': 129.36, 'probability': 0.846748948097229
+        },
+        {'word': ' with', 'start': 129.36, 'end': 129.54, 'probability': 0.8222721815109253
+        },
+        {'word': ' a', 'start': 129.54, 'end': 129.7, 'probability': 0.9980777502059937
+        },
+        {'word': ' cold', 'start': 129.7, 'end': 129.9, 'probability': 0.7831504344940186
+        },
+        {'word': ' black', 'start': 129.9, 'end': 130.22, 'probability': 0.8566165566444397
+        },
+        {'word': ' heart', 'start': 130.22, 'end': 130.66, 'probability': 0.8871596455574036
+        }
+      ]
+    },
+    {'id': 19, 'seek': 14100, 'start': 141.0, 'end': 147.74, 'text': ' Woah, woah, woah, woah, woah', 'tokens': [
+        50364,
+        19668,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        50804
+      ], 'temperature': 0.0, 'avg_logprob': -0.44579384877131534, 'compression_ratio': 1.3983739837398375, 'no_speech_prob': 0.0373506024479866, 'words': [
+        {'word': ' Woah,', 'start': 141.0, 'end': 141.0, 'probability': 0.0005214500124566257
+        },
+        {'word': ' woah,', 'start': 141.0, 'end': 141.0, 'probability': 0.03555118665099144
+        },
+        {'word': ' woah,', 'start': 141.0, 'end': 145.22, 'probability': 0.7015681862831116
+        },
+        {'word': ' woah,', 'start': 145.22, 'end': 146.26, 'probability': 0.7464105486869812
+        },
+        {'word': ' woah', 'start': 146.26, 'end': 147.74, 'probability': 0.7891029715538025
+        }
+      ]
+    },
+    {'id': 20, 'seek': 14100, 'start': 150.82, 'end': 158.16, 'text': " When it hurts the most She's all alone, won't let anyone close", 'tokens': [
+        50804,
+        1133,
+        309,
+        11051,
+        264,
+        881,
+        1240,
+        311,
+        439,
+        3312,
+        11,
+        1582,
+        380,
+        718,
+        2878,
+        1998,
+        51284
+      ], 'temperature': 0.0, 'avg_logprob': -0.44579384877131534, 'compression_ratio': 1.3983739837398375, 'no_speech_prob': 0.0373506024479866, 'words': [
+        {'word': ' When', 'start': 150.82, 'end': 151.72, 'probability': 0.021817760542035103
+        },
+        {'word': ' it', 'start': 151.72, 'end': 152.62, 'probability': 0.8957716822624207
+        },
+        {'word': ' hurts', 'start': 152.62, 'end': 152.8, 'probability': 0.8809863328933716
+        },
+        {'word': ' the', 'start': 152.8, 'end': 153.02, 'probability': 0.3097657263278961
+        },
+        {'word': ' most', 'start': 153.02, 'end': 153.94, 'probability': 0.8270512819290161
+        },
+        {'word': " She's", 'start': 153.94, 'end': 154.88, 'probability': 0.7289093434810638
+        },
+        {'word': ' all', 'start': 154.88, 'end': 155.14, 'probability': 0.8988033533096313
+        },
+        {'word': ' alone,', 'start': 155.14, 'end': 155.72, 'probability': 0.8854340314865112
+        },
+        {'word': " won't", 'start': 156.04, 'end': 156.04, 'probability': 0.9282199144363403
+        },
+        {'word': ' let', 'start': 156.04, 'end': 156.38, 'probability': 0.8880256414413452
+        },
+        {'word': ' anyone', 'start': 156.38, 'end': 157.32, 'probability': 0.8495174050331116
+        },
+        {'word': ' close', 'start': 157.32, 'end': 158.16, 'probability': 0.41601863503456116
+        }
+      ]
+    },
+    {'id': 21, 'seek': 14100, 'start': 159.4, 'end': 167.24, 'text': ' A tiny spark of life, a taste of sky Losing herself, takes a breath for the very', 'tokens': [
+        51284,
+        316,
+        5870,
+        9908,
+        295,
+        993,
+        11,
+        257,
+        3939,
+        295,
+        5443,
+        441,
+        6110,
+        7530,
+        11,
+        2516,
+        257,
+        6045,
+        337,
+        264,
+        588,
+        51676
+      ], 'temperature': 0.0, 'avg_logprob': -0.44579384877131534, 'compression_ratio': 1.3983739837398375, 'no_speech_prob': 0.0373506024479866, 'words': [
+        {'word': ' A', 'start': 159.19, 'end': 159.64, 'probability': 0.6849269270896912
+        },
+        {'word': ' tiny', 'start': 159.64, 'end': 159.9, 'probability': 0.8250601887702942
+        },
+        {'word': ' spark', 'start': 159.9, 'end': 160.14, 'probability': 0.9125592708587646
+        },
+        {'word': ' of', 'start': 160.14, 'end': 160.28, 'probability': 0.9165219068527222
+        },
+        {'word': ' life,', 'start': 160.28, 'end': 161.08, 'probability': 0.40857577323913574
+        },
+        {'word': ' a', 'start': 161.54, 'end': 162.1, 'probability': 0.8382930159568787
+        },
+        {'word': ' taste', 'start': 162.1, 'end': 162.42, 'probability': 0.636415958404541
+        },
+        {'word': ' of', 'start': 162.42, 'end': 162.64, 'probability': 0.9031392931938171
+        },
+        {'word': ' sky', 'start': 162.64, 'end': 163.08, 'probability': 0.724839985370636
+        },
+        {'word': ' Losing', 'start': 163.08, 'end': 164.68, 'probability': 0.8853687345981598
+        },
+        {'word': ' herself,', 'start': 164.68, 'end': 165.54, 'probability': 0.7826135754585266
+        },
+        {'word': ' takes', 'start': 165.74, 'end': 166.22, 'probability': 0.7257524132728577
+        },
+        {'word': ' a', 'start': 166.22, 'end': 166.38, 'probability': 0.9585429430007935
+        },
+        {'word': ' breath', 'start': 166.38, 'end': 166.64, 'probability': 0.7916702032089233
+        },
+        {'word': ' for', 'start': 166.64, 'end': 166.86, 'probability': 0.8858456015586853
+        },
+        {'word': ' the', 'start': 166.86, 'end': 167.0, 'probability': 0.8174641132354736
+        },
+        {'word': ' very', 'start': 167.0, 'end': 167.24, 'probability': 0.7209479212760925
+        }
+      ]
+    },
+    {'id': 22, 'seek': 16724, 'start': 167.24, 'end': 171.64, 'text': ' first time She is like a star on the rise', 'tokens': [
+        50368,
+        700,
+        565,
+        1240,
+        307,
+        411,
+        257,
+        3543,
+        322,
+        264,
+        6272,
+        50588
+      ], 'temperature': 0.0, 'avg_logprob': -0.2659054297905464, 'compression_ratio': 1.6411764705882352, 'no_speech_prob': 0.9242498278617859, 'words': [
+        {'word': ' first', 'start': 167.24, 'end': 167.56, 'probability': 0.15588490664958954
+        },
+        {'word': ' time', 'start': 167.56, 'end': 168.08, 'probability': 0.807907223701477
+        },
+        {'word': ' She', 'start': 168.08, 'end': 168.96, 'probability': 0.06475259363651276
+        },
+        {'word': ' is', 'start': 168.96, 'end': 169.42, 'probability': 0.5012964606285095
+        },
+        {'word': ' like', 'start': 169.42, 'end': 169.78, 'probability': 0.8553687334060669
+        },
+        {'word': ' a', 'start': 169.78, 'end': 170.02, 'probability': 0.961948573589325
+        },
+        {'word': ' star', 'start': 170.02, 'end': 170.46, 'probability': 0.8114100694656372
+        },
+        {'word': ' on', 'start': 170.46, 'end': 170.9, 'probability': 0.7751390337944031
+        },
+        {'word': ' the', 'start': 170.9, 'end': 171.16, 'probability': 0.8138675689697266
+        },
+        {'word': ' rise', 'start': 171.16, 'end': 171.64, 'probability': 0.8655054569244385
+        }
+      ]
+    },
+    {'id': 23, 'seek': 16724, 'start': 171.64, 'end': 177.1, 'text': " A statue with her angel eyes She's gonna break your heart before you even", 'tokens': [
+        50588,
+        316,
+        17385,
+        365,
+        720,
+        14250,
+        2575,
+        1240,
+        311,
+        799,
+        1821,
+        428,
+        1917,
+        949,
+        291,
+        754,
+        50864
+      ], 'temperature': 0.0, 'avg_logprob': -0.2659054297905464, 'compression_ratio': 1.6411764705882352, 'no_speech_prob': 0.9242498278617859, 'words': [
+        {'word': ' A', 'start': 171.64, 'end': 172.02, 'probability': 0.022361231967806816
+        },
+        {'word': ' statue', 'start': 172.02, 'end': 172.5, 'probability': 0.03579943999648094
+        },
+        {'word': ' with', 'start': 172.5, 'end': 173.02, 'probability': 0.5554922223091125
+        },
+        {'word': ' her', 'start': 173.02, 'end': 173.2, 'probability': 0.22415553033351898
+        },
+        {'word': ' angel', 'start': 173.2, 'end': 173.48, 'probability': 0.875083863735199
+        },
+        {'word': ' eyes', 'start': 173.48, 'end': 174.14, 'probability': 0.8521250486373901
+        },
+        {'word': " She's", 'start': 174.14, 'end': 174.68, 'probability': 0.8842185735702515
+        },
+        {'word': ' gonna', 'start': 174.68, 'end': 174.86, 'probability': 0.7489030957221985
+        },
+        {'word': ' break', 'start': 174.86, 'end': 175.26, 'probability': 0.9259151816368103
+        },
+        {'word': ' your', 'start': 175.26, 'end': 175.54, 'probability': 0.7993793487548828
+        },
+        {'word': ' heart', 'start': 175.54, 'end': 175.86, 'probability': 0.9037692546844482
+        },
+        {'word': ' before', 'start': 175.86, 'end': 176.28, 'probability': 0.7900708317756653
+        },
+        {'word': ' you', 'start': 176.28, 'end': 176.54, 'probability': 0.8921264410018921
+        },
+        {'word': ' even', 'start': 176.54, 'end': 177.1, 'probability': 0.6699796915054321
+        }
+      ]
+    },
+    {'id': 24, 'seek': 16724, 'start': 177.1, 'end': 181.36, 'text': " know She's like a fire in the hole", 'tokens': [
+        50864,
+        458,
+        1240,
+        311,
+        411,
+        257,
+        2610,
+        294,
+        264,
+        5458,
+        51084
+      ], 'temperature': 0.0, 'avg_logprob': -0.2659054297905464, 'compression_ratio': 1.6411764705882352, 'no_speech_prob': 0.9242498278617859, 'words': [
+        {'word': ' know', 'start': 177.1, 'end': 178.1, 'probability': 0.8152936100959778
+        },
+        {'word': " She's", 'start': 178.1, 'end': 179.22, 'probability': 0.908250480890274
+        },
+        {'word': ' like', 'start': 179.22, 'end': 179.58, 'probability': 0.8642444610595703
+        },
+        {'word': ' a', 'start': 179.58, 'end': 179.84, 'probability': 0.9792147874832153
+        },
+        {'word': ' fire', 'start': 179.84, 'end': 180.22, 'probability': 0.8493285179138184
+        },
+        {'word': ' in', 'start': 180.22, 'end': 180.72, 'probability': 0.9048313498497009
+        },
+        {'word': ' the', 'start': 180.72, 'end': 181.0, 'probability': 0.6930302381515503
+        },
+        {'word': ' hole', 'start': 181.0, 'end': 181.36, 'probability': 0.7470791339874268
+        }
+      ]
+    },
+    {'id': 25, 'seek': 16724, 'start': 181.36, 'end': 186.44, 'text': ' Gonna steal away your soul Like I told you from the start', 'tokens': [
+        51084,
+        20341,
+        11009,
+        1314,
+        428,
+        5133,
+        1743,
+        286,
+        1907,
+        291,
+        490,
+        264,
+        722,
+        51340
+      ], 'temperature': 0.0, 'avg_logprob': -0.2659054297905464, 'compression_ratio': 1.6411764705882352, 'no_speech_prob': 0.9242498278617859, 'words': [
+        {'word': ' Gonna', 'start': 181.36, 'end': 181.98, 'probability': 0.6713405251502991
+        },
+        {'word': ' steal', 'start': 181.98, 'end': 182.64, 'probability': 0.6201037764549255
+        },
+        {'word': ' away', 'start': 182.64, 'end': 183.08, 'probability': 0.8231255412101746
+        },
+        {'word': ' your', 'start': 183.08, 'end': 183.4, 'probability': 0.812164306640625
+        },
+        {'word': ' soul', 'start': 183.4, 'end': 183.8, 'probability': 0.811016321182251
+        },
+        {'word': ' Like', 'start': 183.8, 'end': 184.34, 'probability': 0.8168706297874451
+        },
+        {'word': ' I', 'start': 184.34, 'end': 184.7, 'probability': 0.9808197617530823
+        },
+        {'word': ' told', 'start': 184.7, 'end': 185.08, 'probability': 0.8447532057762146
+        },
+        {'word': ' you', 'start': 185.08, 'end': 185.22, 'probability': 0.8638765811920166
+        },
+        {'word': ' from', 'start': 185.22, 'end': 185.54, 'probability': 0.8212441802024841
+        },
+        {'word': ' the', 'start': 185.54, 'end': 185.82, 'probability': 0.8148835301399231
+        },
+        {'word': ' start', 'start': 185.82, 'end': 186.44, 'probability': 0.8637038469314575
+        }
+      ]
+    },
+    {'id': 26, 'seek': 16724, 'start': 186.44, 'end': 194.78, 'text': " She's a pale girl with a cold black heart Woah, woah, woah, woah, woah", 'tokens': [
+        51340,
+        1240,
+        311,
+        257,
+        19546,
+        2013,
+        365,
+        257,
+        3554,
+        2211,
+        1917,
+        19668,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        51836
+      ], 'temperature': 0.0, 'avg_logprob': -0.2659054297905464, 'compression_ratio': 1.6411764705882352, 'no_speech_prob': 0.9242498278617859, 'words': [
+        {'word': " She's", 'start': 186.44, 'end': 187.16, 'probability': 0.9335269629955292
+        },
+        {'word': ' a', 'start': 187.16, 'end': 187.26, 'probability': 0.33917903900146484
+        },
+        {'word': ' pale', 'start': 187.26, 'end': 187.72, 'probability': 0.004787197336554527
+        },
+        {'word': ' girl', 'start': 187.72, 'end': 188.16, 'probability': 0.6084571480751038
+        },
+        {'word': ' with', 'start': 188.16, 'end': 188.38, 'probability': 0.7121087908744812
+        },
+        {'word': ' a', 'start': 188.38, 'end': 188.44, 'probability': 0.9515847563743591
+        },
+        {'word': ' cold', 'start': 188.44, 'end': 188.7, 'probability': 0.31068646907806396
+        },
+        {'word': ' black', 'start': 188.7, 'end': 189.04, 'probability': 0.6888551115989685
+        },
+        {'word': ' heart', 'start': 189.04, 'end': 189.36, 'probability': 0.8644023537635803
+        },
+        {'word': ' Woah,', 'start': 189.36, 'end': 190.1, 'probability': 0.3127043545246124
+        },
+        {'word': ' woah,', 'start': 190.12, 'end': 191.76, 'probability': 0.7820152640342712
+        },
+        {'word': ' woah,', 'start': 191.86, 'end': 192.46, 'probability': 0.8610376119613647
+        },
+        {'word': ' woah,', 'start': 193.38, 'end': 194.22, 'probability': 0.8906477093696594
+        },
+        {'word': ' woah', 'start': 194.22, 'end': 194.78, 'probability': 0.8987864851951599
+        }
+      ]
+    },
+    {'id': 27, 'seek': 19478, 'start': 196.23999999999998, 'end': 205.7, 'text': " She's a pale girl with a cold black heart Woah, woah, woah, woah, woah", 'tokens': [
+        50368,
+        1240,
+        311,
+        257,
+        19546,
+        2013,
+        365,
+        257,
+        3554,
+        2211,
+        1917,
+        19668,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        11,
+        37116,
+        50948
+      ], 'temperature': 0.0, 'avg_logprob': -0.38102253745583925, 'compression_ratio': 1.8064516129032258, 'no_speech_prob': 0.4307880401611328, 'words': [
+        {'word': " She's", 'start': 196.23999999999998, 'end': 196.92, 'probability': 0.5703931152820587
+        },
+        {'word': ' a', 'start': 196.92, 'end': 197.08, 'probability': 0.7100539803504944
+        },
+        {'word': ' pale', 'start': 197.08, 'end': 197.32, 'probability': 0.00010417455632705241
+        },
+        {'word': ' girl', 'start': 197.32, 'end': 197.92, 'probability': 0.717101514339447
+        },
+        {'word': ' with', 'start': 197.92, 'end': 198.14, 'probability': 0.780991792678833
+        },
+        {'word': ' a', 'start': 198.14, 'end': 198.26, 'probability': 0.9854381084442139
+        },
+        {'word': ' cold', 'start': 198.26, 'end': 198.48, 'probability': 0.8570724129676819
+        },
+        {'word': ' black', 'start': 198.48, 'end': 198.8, 'probability': 0.7245611548423767
+        },
+        {'word': ' heart', 'start': 198.8, 'end': 199.16, 'probability': 0.8730421662330627
+        },
+        {'word': ' Woah,', 'start': 199.16, 'end': 199.9, 'probability': 0.026534128934144974
+        },
+        {'word': ' woah,', 'start': 200.48, 'end': 201.48, 'probability': 0.7989606261253357
+        },
+        {'word': ' woah,', 'start': 201.52, 'end': 202.76, 'probability': 0.8336626887321472
+        },
+        {'word': ' woah,', 'start': 202.94, 'end': 204.46, 'probability': 0.8849615454673767
+        },
+        {'word': ' woah', 'start': 205.24, 'end': 205.7, 'probability': 0.857062578201294
+        }
+      ]
+    },
+    {'id': 28, 'seek': 19478, 'start': 206.46, 'end': 208.9, 'text': " She's a pale girl with a cold black heart", 'tokens': [
+        50948,
+        1240,
+        311,
+        257,
+        19546,
+        2013,
+        365,
+        257,
+        3554,
+        2211,
+        1917,
+        51072
+      ], 'temperature': 0.0, 'avg_logprob': -0.38102253745583925, 'compression_ratio': 1.8064516129032258, 'no_speech_prob': 0.4307880401611328, 'words': [
+        {'word': " She's", 'start': 206.34, 'end': 206.68, 'probability': 0.74033023416996
+        },
+        {'word': ' a', 'start': 206.68, 'end': 206.84, 'probability': 0.9908875226974487
+        },
+        {'word': ' pale', 'start': 206.84, 'end': 207.32, 'probability': 0.7458162307739258
+        },
+        {'word': ' girl', 'start': 207.32, 'end': 207.68, 'probability': 0.8462390899658203
+        },
+        {'word': ' with', 'start': 207.68, 'end': 207.86, 'probability': 0.816106379032135
+        },
+        {'word': ' a', 'start': 207.86, 'end': 208.02, 'probability': 0.9977114200592041
+        },
+        {'word': ' cold', 'start': 208.02, 'end': 208.22, 'probability': 0.8153167963027954
+        },
+        {'word': ' black', 'start': 208.22, 'end': 208.56, 'probability': 0.859619677066803
+        },
+        {'word': ' heart', 'start': 208.56, 'end': 208.9, 'probability': 0.8884735107421875
+        }
+      ]
+    }
+  ], 'language': 'en'
+}
