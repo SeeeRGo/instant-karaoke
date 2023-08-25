@@ -30,4 +30,11 @@ RUN pip install manim
 RUN pip install -U openai-whisper
 RUN pip uninstall -y click
 RUN pip install click==7.1.2
-SHELL ["/bin/bash", "-c"]
+RUN pip install flask==2.0.1
+RUN pip install simple-youtube-api
+COPY . /project
+RUN mkdir -p /output
+ENV FLASK_APP=/project/route.py
+CMD ["flask", "run", "--host=0.0.0.0"]
+# SHELL ["/bin/bash", "-c"]
+
