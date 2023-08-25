@@ -13,7 +13,7 @@ def parse_segments(filename):
 
 # Opening JSON file
 
-print(parse_segments('transcript.json'))
+# print(parse_segments('transcript.json'))
 
 def parse_lyrics(filename):
   text_file = open(filename, "r")
@@ -32,9 +32,35 @@ def match_text(transcript, actual_lyrics):
   words = parse_lyrics(actual_lyrics)
   len_words = len(words)
 
-  print('timed', len_timed, 'words', len_words)
+  result = []
+  words_i = 0
 
-  # for i,word_timed in enumerate(words_timed):
+  for i, word_timed in enumerate(words_timed):
+    timed = word_timed['word']
+    start = word_timed['start']
+    end = word_timed['end']
+    actual_text = words[word_i]
+    ratio = len(timed) / len(actual_text)
+    if ratio > 1.5:
+      while ratio > 1.5:
+        word_i += 1
+        actual_text += words[word_i]
+        ratio = len(timed) / len(actual_text)
+    if ratio < 0.66:
+      while ratio < 0.66:
+        timed += words_timed[i+1]['word']
+        ratio = len(timed) / len(actual_text)
+    
+    result.append({
+      start: word['start']
+      end: word['end']
+      word: actual_text
+    })
+
+  print(result)
+
+
     
 
 # parse_lyrics('lyrics.txt')
+match_text('transcript.json', 'lyrics.txt')
