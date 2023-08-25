@@ -22,19 +22,10 @@ ARG SPLEETER_VERSION=2.4.0
 ENV MODEL_PATH /model
 
 RUN mkdir -p /model
-RUN apt-get update && apt-get install -y ffmpeg libsndfile1
-RUN pip install musdb museval
-RUN pip install spleeter==${SPLEETER_VERSION}
-RUN apt install -y build-essential python3-dev libcairo2-dev libpango1.0-dev
-RUN pip install manim
-RUN pip install -U openai-whisper
-RUN pip uninstall -y click
-RUN pip install click==7.1.2
-RUN pip install flask==2.0.1
-RUN pip install simple-youtube-api
+RUN apt-get update && apt-get install -y ffmpeg libsndfile1 build-essential python3-dev libcairo2-dev libpango1.0-dev
+RUN pip install -U musdb museval manim spleeter==${SPLEETER_VERSION} click==7.1.2 openai-whisper flask==2.0.1 simple-youtube-api
 COPY . /project
 RUN mkdir -p /output
 ENV FLASK_APP=/project/route.py
 CMD ["flask", "run", "--host=0.0.0.0"]
 # SHELL ["/bin/bash", "-c"]
-
