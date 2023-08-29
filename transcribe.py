@@ -15,7 +15,7 @@ def separate_file(filename, output_path):
   waveform, _ = audio_loader.load(filename, sample_rate=sample_rate)
 
   prediction = separator.separate(waveform)
-  audio_loader.save(output_path, prediction['vocals'], sample_rate=sample_rate)
+  audio_loader.save(output_path, prediction['accompaniment'], sample_rate=sample_rate)
 
 def transcribe_file(filename):
   model = whisper.load_model("large-v2")
@@ -41,7 +41,7 @@ class IterateColor(Scene):
       output_path = './output/accompaniment.wav'
       separate_file(self.filename, './output/accompaniment.wav')
       segments = transcribe_file(self.filename)
-      segments = match_text(segments, 'lyrics.txt')
+      segments = match_text(segments, 'actual_lyrics.txt')
       self.add_sound(output_path)
       time = 0
 
@@ -89,14 +89,14 @@ class IterateColor(Scene):
 
 if __name__ == "__main__":
   load_dotenv()
-  scene = IterateColor("Kitty In A Casket - Cold Black Heart.mp3")
+  scene = IterateColor("01 - Bela Kiss.mp3")
   scene.render()
   url: str = os.environ.get("SUPABASE_URL")
   key: str = os.environ.get("SUPABASE_KEY")
   print(key)
   supabase: Client = create_client(url, key)
   file = open('./media/videos/1080p60/IterateColor.mp4','rb')
-  res = supabase.storage.from_('file_queue').upload("Kitty In A Casket - Cold Black Heart.mp4", file)
+  res = supabase.storage.from_('file_queue').upload("01 - Bela Kiss.mp4", file)
   
 # from faster_whisper import WhisperModel
 

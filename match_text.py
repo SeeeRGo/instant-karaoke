@@ -51,25 +51,26 @@ def match_text(transcript, actual_lyrics):
     distance = 1000
     while(stop != True):
       for i,word in enumerate(remaining_words):
-        new_match_score = jaro_similarity(segment_codes, actual_segment_codes + word['code'])
-        text_match_score = jaro_similarity(text, actual_segment + word['word'])
-        new_distance = damerau_levenshtein_distance(segment_codes, actual_segment_codes + word['code'])
+        if len(word["word"]) > 0:
+          new_match_score = jaro_similarity(segment_codes, actual_segment_codes + word['code'])
+          text_match_score = jaro_similarity(text, actual_segment + word['word'])
+          new_distance = damerau_levenshtein_distance(segment_codes, actual_segment_codes + word['code'])
 
-        len_compare_continue = len(text) / len(actual_segment + word['word']) > 1.3
-        text_compare = text_match_score > text_match and new_distance < distance
+          len_compare_continue = len(text) / len(actual_segment + word['word']) > 1.3
+          text_compare = text_match_score > text_match and new_distance < distance
 
-        if new_match_score > best_match or text_compare or len_compare_continue:
-          best_match = new_match_score
-          text_match = text_match_score
-          distance = new_distance
-          actual_segment_codes += word['code']
-          actual_segment += word['word']
-          actual_segment_codes += ' '
-          actual_segment += ' '
-        else:
-          stop = True
-          remaining_words = remaining_words[i:]
-          break
+          if new_match_score > best_match or text_compare or len_compare_continue:
+            best_match = new_match_score
+            text_match = text_match_score
+            distance = new_distance
+            actual_segment_codes += word['code']
+            actual_segment += word['word']
+            actual_segment_codes += ' '
+            actual_segment += ' '
+          else:
+            stop = True
+            remaining_words = remaining_words[i:]
+            break
 
     result.append({
       "text": segment["text"],
