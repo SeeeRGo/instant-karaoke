@@ -3,12 +3,10 @@ from functools import reduce
 from jellyfish import soundex, match_rating_codex, nysiis, jaro_winkler_similarity, jaro_similarity, damerau_levenshtein_distance
 import replace_words
  
-def parse_segments(filename):
-  f = open(filename)
-  data = json.load(f)
+def parse_segments(segments):
 
   words = []
-  for segment in data['segments']:
+  for segment in segments:
     words.append({
       "text": segment['text'],
       "words": [{
@@ -41,6 +39,7 @@ def match_text(transcript, actual_lyrics):
   words = parse_lyrics(actual_lyrics)
 
   remaining_words = words
+  result = []
   for segment in words_timed:
     text = segment['text']
     segment_codes = ' '.join([word["code"] for word in segment["words"]])
@@ -71,19 +70,10 @@ def match_text(transcript, actual_lyrics):
           stop = True
           remaining_words = remaining_words[i:]
           break
-    # break
-    print(replace_words.replace_words(actual_segment.strip(), nums=segment['words']))
 
+    result.append({
+      "text": segment["text"],
+      "words": replace_words.replace_words(actual_segment.strip(), nums=segment['words'])
+    })
+  return result
 
-
-def getSoundexList(dList):
-    res = [soundex(x) for x in dList]   # iterate over each elem in the dataList
-    # print(res)     # ['T000', 'F630', 'F630', 'D263', 'T000', 'D263']
-    return res
-
-# print([x for x in sorted(getSoundexList(parse_segments('transcript.json')))])
-
-match_text('transcript.json', 'lyrics.txt')
-# print(parse_lyrics('lyrics.txt'))
-# print(jaro_winkler_similarity('Staring on, perfection of love', 'Stared at in awe Perfection, no flaw'))
-# print(jaro_winkler_similarity('Staring on, perfection of love', 'Stared at in awe Perfection, no flaw'))

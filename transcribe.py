@@ -2,6 +2,10 @@ import whisper
 from manim import *
 from spleeter.separator import Separator
 from spleeter.audio.adapter import AudioAdapter
+from match_text import match_text
+import os
+from supabase import create_client, Client
+from dotenv import load_dotenv
 
 def separate_file(filename, output_path):
   separator = Separator('spleeter:2stems')
@@ -14,7 +18,7 @@ def separate_file(filename, output_path):
   audio_loader.save(output_path, prediction['vocals'], sample_rate=sample_rate)
 
 def transcribe_file(filename):
-  model = whisper.load_model("medium.en")
+  model = whisper.load_model("large-v2")
   result = model.transcribe(filename, word_timestamps=True)
   return result['segments']
 
@@ -34,32 +38,31 @@ class IterateColor(Scene):
 
     def construct(self):
       last_end = 0
-      output_path = '/output/accompaniment.wav'
-      separate_file(self.filename, '/output/accompaniment.wav')
+      output_path = './output/accompaniment.wav'
+      separate_file(self.filename, './output/accompaniment.wav')
       segments = transcribe_file(self.filename)
+      segments = match_text(segments, 'lyrics.txt')
       self.add_sound(output_path)
       time = 0
-      file1 = open('/project/actual_lyrics.txt', 'r')
-      Lines = file1.readlines()
 
       for i,segment in enumerate(segments):
         word_list_parsed = []
         word_list = segment['words']
-        words = ''
         total = 0
+        words = ''
 
         for w in word_list:
             wait_time = w['start'] - last_end
             last_end = w['end']
-            word_list_parsed.append((w['end'] - w['start'], len(w['word'].strip()), wait_time))
-            words += w['word'].strip()
-            total += len(w['word'].strip())
+            word = w['word']
+            word_list_parsed.append((w['end'] - w['start'], len(word), wait_time))
+            words += f'{word} '
+            total += len(word)
 
-        text = Lines[i].strip()
-        text1 = Text(text, font_size=24)
+        text1 = Text(words.strip(), font_size=24)
 
         if total > len(text1):
-          text1 = Text(f'{text}_', font_size=24)
+          text1 = Text(f'{words.strip()}_', font_size=24)
 
         self.add(text1)
         offset = 0
@@ -84,7 +87,17 @@ class IterateColor(Scene):
 
         self.remove(text1)
 
-
+if __name__ == "__main__":
+  load_dotenv()
+  scene = IterateColor("Kitty In A Casket - Cold Black Heart.mp3")
+  scene.render()
+  url: str = os.environ.get("SUPABASE_URL")
+  key: str = os.environ.get("SUPABASE_KEY")
+  print(key)
+  supabase: Client = create_client(url, key)
+  file = open('./media/videos/1080p60/IterateColor.mp4','rb')
+  res = supabase.storage.from_('file_queue').upload("Kitty In A Casket - Cold Black Heart.mp4", file)
+  
 # from faster_whisper import WhisperModel
 
 # model_size = "base"

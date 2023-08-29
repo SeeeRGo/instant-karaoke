@@ -53,7 +53,6 @@ def replace_words(new_text, nums=nums):
       total_wait += item['wait']
     adjusted_wait.append({ "index": key, "wait": total_wait})
 
-  print(adjusted_wait)
   res = []
   current_start = nums[0]["start"]
   if coef >= 1:
@@ -109,5 +108,3 @@ def replace_words(new_text, nums=nums):
       })
       current_start = current_start + shortened_nums[i]["end"] - shortened_nums[i]["start"]
   return res
-
-print(replace_words("new better shorter text average", nums=nums_uneven_durations_with_pauses))
