@@ -1,0 +1,2357 @@
+{
+  "text": "INAUDIBLE He sees you and reaches out for your heart But his kisses cause your life to fall apart Darkness devours you and he takes control Vader drowns his pain together With his wife's in alcohol Vader made a kiss kiss Con湏 Stoped telling blairs Did you really kill your wife? Picked up in formed aldi height Kiss of death and homicide Vader made a kiss kiss Conuan Stopped telling lies Did you really kill your wife? Pickled in formed aldi height Kiss of death and homicide What kind of monster have you let yourself become? How many women are still out there on your farm? Your bare hands, their necks you choked there Your dark collection grows but Vela, your cold heart stays forever broken Confused of telling lies Did you really kill your wife? Portia, Rita and I were dead, pickled in from all the heights Kiss of death and homicide Confused of telling lies Did you really kill your wife? Portia, Rita and I were dead, pickled in from all the heights Kiss of death and homicide You adored your wife until she found herself a lover But you made sure there was no happy ever after And is still somewhere in your home with all the others Carefully preserved, floating blood, strange bodies Confused of telling lies Did you really kill your wife? Portia, Rita and I were dead, pickled in from all the heights Kiss of death and homicide Confused of telling lies Did you really kill your wife? Portia, Rita and I were dead, pickled in from all the heights Kiss of death and homicide Of death and homicide Of death and homicide Kiss of death and homicide",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.42,
+      "text": "INAUDIBLE",
+      "tokens": [50364, 5444, 50535],
+      "temperature": 1.0,
+      "avg_logprob": -3.936552047729492,
+      "compression_ratio": 0.5294117647058824,
+      "no_speech_prob": 0.5575395822525024,
+      "words": [
+        {
+          "word": "INAUDIBLE",
+          "start": 0.0,
+          "end": 28.16,
+          "probability": 1.7963684513233602e-5
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 2816,
+      "start": 28.16,
+      "end": 32.62,
+      "text": " He sees you and reaches out for your heart",
+      "tokens": [50364, 634, 8194, 291, 293, 14235, 484, 337, 428, 1917, 50514],
+      "temperature": 0.0,
+      "avg_logprob": -0.35491840362548827,
+      "compression_ratio": 1.406015037593985,
+      "no_speech_prob": 0.6824004054069519,
+      "words": [
+        {
+          "word": " He",
+          "start": 28.16,
+          "end": 28.16,
+          "probability": 0.2894115746021271
+        },
+        {
+          "word": " sees",
+          "start": 28.16,
+          "end": 28.16,
+          "probability": 0.04989343881607056
+        },
+        {
+          "word": " you",
+          "start": 28.16,
+          "end": 28.48,
+          "probability": 0.9870733022689819
+        },
+        {
+          "word": " and",
+          "start": 28.48,
+          "end": 28.62,
+          "probability": 0.963344156742096
+        },
+        {
+          "word": " reaches",
+          "start": 28.62,
+          "end": 28.9,
+          "probability": 0.9519320726394653
+        },
+        {
+          "word": " out",
+          "start": 28.9,
+          "end": 29.3,
+          "probability": 0.9977161884307861
+        },
+        {
+          "word": " for",
+          "start": 29.3,
+          "end": 29.6,
+          "probability": 0.9929268956184387
+        },
+        {
+          "word": " your",
+          "start": 29.6,
+          "end": 32.62,
+          "probability": 0.9967682361602783
+        },
+        {
+          "word": " heart",
+          "start": 32.62,
+          "end": 32.62,
+          "probability": 0.988410234451294
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "seek": 2816,
+      "start": 33.16,
+      "end": 37.16,
+      "text": " But his kisses cause your life to fall apart",
+      "tokens": [
+        50614, 583, 702, 35850, 3082, 428, 993, 281, 2100, 4936, 50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.35491840362548827,
+      "compression_ratio": 1.406015037593985,
+      "no_speech_prob": 0.6824004054069519,
+      "words": [
+        {
+          "word": " But",
+          "start": 33.16,
+          "end": 33.6,
+          "probability": 0.6421525478363037
+        },
+        {
+          "word": " his",
+          "start": 33.6,
+          "end": 33.8,
+          "probability": 0.97552889585495
+        },
+        {
+          "word": " kisses",
+          "start": 33.8,
+          "end": 34.04,
+          "probability": 0.741814911365509
+        },
+        {
+          "word": " cause",
+          "start": 34.04,
+          "end": 34.3,
+          "probability": 0.6874885559082031
+        },
+        {
+          "word": " your",
+          "start": 34.3,
+          "end": 34.64,
+          "probability": 0.982910692691803
+        },
+        {
+          "word": " life",
+          "start": 34.64,
+          "end": 34.86,
+          "probability": 0.9865121841430664
+        },
+        {
+          "word": " to",
+          "start": 34.86,
+          "end": 35.28,
+          "probability": 0.9903693795204163
+        },
+        {
+          "word": " fall",
+          "start": 35.28,
+          "end": 35.58,
+          "probability": 0.9975987076759338
+        },
+        {
+          "word": " apart",
+          "start": 35.58,
+          "end": 37.16,
+          "probability": 0.99949049949646
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "seek": 2816,
+      "start": 39.16,
+      "end": 43.18,
+      "text": " Darkness devours you and he takes control",
+      "tokens": [50914, 38198, 1905, 5067, 291, 293, 415, 2516, 1969, 51114],
+      "temperature": 0.0,
+      "avg_logprob": -0.35491840362548827,
+      "compression_ratio": 1.406015037593985,
+      "no_speech_prob": 0.6824004054069519,
+      "words": [
+        {
+          "word": " Darkness",
+          "start": 39.03,
+          "end": 39.44,
+          "probability": 0.3475654125213623
+        },
+        {
+          "word": " devours",
+          "start": 39.44,
+          "end": 39.96,
+          "probability": 0.9314636588096619
+        },
+        {
+          "word": " you",
+          "start": 39.96,
+          "end": 40.46,
+          "probability": 0.9946012496948242
+        },
+        {
+          "word": " and",
+          "start": 40.46,
+          "end": 40.74,
+          "probability": 0.6809865236282349
+        },
+        {
+          "word": " he",
+          "start": 40.74,
+          "end": 41.04,
+          "probability": 0.9889336824417114
+        },
+        {
+          "word": " takes",
+          "start": 41.04,
+          "end": 41.52,
+          "probability": 0.9978020787239075
+        },
+        {
+          "word": " control",
+          "start": 41.52,
+          "end": 43.18,
+          "probability": 0.9989017248153687
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "seek": 2816,
+      "start": 44.68,
+      "end": 47.78,
+      "text": " Vader drowns his pain together",
+      "tokens": [51214, 36337, 20337, 82, 702, 1822, 1214, 51364],
+      "temperature": 0.0,
+      "avg_logprob": -0.35491840362548827,
+      "compression_ratio": 1.406015037593985,
+      "no_speech_prob": 0.6824004054069519,
+      "words": [
+        {
+          "word": " Vader",
+          "start": 44.68,
+          "end": 45.5,
+          "probability": 0.09019596129655838
+        },
+        {
+          "word": " drowns",
+          "start": 45.5,
+          "end": 46.04,
+          "probability": 0.9169896245002747
+        },
+        {
+          "word": " his",
+          "start": 46.04,
+          "end": 46.28,
+          "probability": 0.9857248067855835
+        },
+        {
+          "word": " pain",
+          "start": 46.28,
+          "end": 46.6,
+          "probability": 0.9930369257926941
+        },
+        {
+          "word": " together",
+          "start": 46.6,
+          "end": 47.78,
+          "probability": 0.987506628036499
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "seek": 2816,
+      "start": 47.78,
+      "end": 52.2,
+      "text": " With his wife's in alcohol",
+      "tokens": [51364, 2022, 702, 3836, 311, 294, 7658, 51564],
+      "temperature": 0.0,
+      "avg_logprob": -0.35491840362548827,
+      "compression_ratio": 1.406015037593985,
+      "no_speech_prob": 0.6824004054069519,
+      "words": [
+        {
+          "word": " With",
+          "start": 47.78,
+          "end": 48.84,
+          "probability": 0.7300564646720886
+        },
+        {
+          "word": " his",
+          "start": 48.84,
+          "end": 49.34,
+          "probability": 0.9985036849975586
+        },
+        {
+          "word": " wife's",
+          "start": 49.34,
+          "end": 49.84,
+          "probability": 0.5958567410707474
+        },
+        {
+          "word": " in",
+          "start": 49.84,
+          "end": 50.14,
+          "probability": 0.53070467710495
+        },
+        {
+          "word": " alcohol",
+          "start": 50.14,
+          "end": 52.2,
+          "probability": 0.9886019825935364
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "seek": 5220,
+      "start": 53.4,
+      "end": 55.16,
+      "text": " Vader made a kiss kiss",
+      "tokens": [50414, 36337, 1027, 257, 7704, 7704, 50514],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Vader",
+          "start": 53.4,
+          "end": 54.0,
+          "probability": 0.0003203031956218183
+        },
+        {
+          "word": " made",
+          "start": 54.0,
+          "end": 54.26,
+          "probability": 0.19749467074871063
+        },
+        {
+          "word": " a",
+          "start": 54.26,
+          "end": 54.48,
+          "probability": 0.7555692195892334
+        },
+        {
+          "word": " kiss",
+          "start": 54.48,
+          "end": 54.82,
+          "probability": 0.950054943561554
+        },
+        {
+          "word": " kiss",
+          "start": 54.82,
+          "end": 55.16,
+          "probability": 0.778607189655304
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "seek": 5220,
+      "start": 55.16,
+      "end": 56.72,
+      "text": " Con湏 Stoped telling blairs",
+      "tokens": [50514, 2656, 33744, 237, 5535, 292, 3585, 16379, 12983, 50614],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Con湏",
+          "start": 55.16,
+          "end": 55.58,
+          "probability": 0.012111279094824567
+        },
+        {
+          "word": " Stoped",
+          "start": 55.58,
+          "end": 56.1,
+          "probability": 0.013111139182001352
+        },
+        {
+          "word": " telling",
+          "start": 56.1,
+          "end": 56.16,
+          "probability": 0.8683683276176453
+        },
+        {
+          "word": " blairs",
+          "start": 56.16,
+          "end": 56.72,
+          "probability": 0.0056694419279352815
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "seek": 5220,
+      "start": 57.58,
+      "end": 59.48,
+      "text": " Did you really kill your wife?",
+      "tokens": [50614, 2589, 291, 534, 1961, 428, 3836, 30, 50714],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Did",
+          "start": 57.58,
+          "end": 58.18,
+          "probability": 0.04658325016498566
+        },
+        {
+          "word": " you",
+          "start": 58.18,
+          "end": 58.4,
+          "probability": 0.9541082978248596
+        },
+        {
+          "word": " really",
+          "start": 58.4,
+          "end": 58.84,
+          "probability": 0.9872762560844421
+        },
+        {
+          "word": " kill",
+          "start": 58.84,
+          "end": 58.98,
+          "probability": 0.9677554965019226
+        },
+        {
+          "word": " your",
+          "start": 58.98,
+          "end": 59.26,
+          "probability": 0.9554571509361267
+        },
+        {
+          "word": " wife?",
+          "start": 59.26,
+          "end": 59.48,
+          "probability": 0.922715425491333
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "seek": 5220,
+      "start": 59.66,
+      "end": 62.68,
+      "text": " Picked up in formed aldi height",
+      "tokens": [50814, 430, 12598, 493, 294, 8693, 16798, 72, 6681, 50914],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Picked",
+          "start": 59.66,
+          "end": 59.9,
+          "probability": 0.03186212540458655
+        },
+        {
+          "word": " up",
+          "start": 59.9,
+          "end": 60.02,
+          "probability": 0.1672777235507965
+        },
+        {
+          "word": " in",
+          "start": 60.02,
+          "end": 60.2,
+          "probability": 0.31974974274635315
+        },
+        {
+          "word": " formed",
+          "start": 60.2,
+          "end": 61.14,
+          "probability": 1.1453724937382503e-6
+        },
+        {
+          "word": " aldi",
+          "start": 61.14,
+          "end": 62.28,
+          "probability": 0.18177877366542816
+        },
+        {
+          "word": " height",
+          "start": 62.28,
+          "end": 62.68,
+          "probability": 0.021091487258672714
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "seek": 5220,
+      "start": 63.660000000000004,
+      "end": 65.52,
+      "text": " Kiss of death and homicide",
+      "tokens": [50914, 24297, 295, 2966, 293, 49411, 51014],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Kiss",
+          "start": 63.660000000000004,
+          "end": 64.26,
+          "probability": 0.7979874014854431
+        },
+        {
+          "word": " of",
+          "start": 64.26,
+          "end": 64.44,
+          "probability": 0.8483213782310486
+        },
+        {
+          "word": " death",
+          "start": 64.44,
+          "end": 64.66,
+          "probability": 0.828974187374115
+        },
+        {
+          "word": " and",
+          "start": 64.66,
+          "end": 64.88,
+          "probability": 0.9219708442687988
+        },
+        {
+          "word": " homicide",
+          "start": 64.88,
+          "end": 65.52,
+          "probability": 0.30074265599250793
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "seek": 5220,
+      "start": 65.52,
+      "end": 67.0,
+      "text": " Vader made a kiss kiss",
+      "tokens": [51014, 36337, 1027, 257, 7704, 7704, 51114],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Vader",
+          "start": 65.52,
+          "end": 65.88,
+          "probability": 0.867455005645752
+        },
+        {
+          "word": " made",
+          "start": 65.88,
+          "end": 66.18,
+          "probability": 0.9876813888549805
+        },
+        {
+          "word": " a",
+          "start": 66.18,
+          "end": 66.4,
+          "probability": 0.9908211827278137
+        },
+        {
+          "word": " kiss",
+          "start": 66.4,
+          "end": 66.62,
+          "probability": 0.9949231743812561
+        },
+        {
+          "word": " kiss",
+          "start": 66.62,
+          "end": 67.0,
+          "probability": 0.994817316532135
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "seek": 5220,
+      "start": 67.0,
+      "end": 68.52,
+      "text": " Conuan Stopped telling lies",
+      "tokens": [51114, 2656, 6139, 5535, 3452, 3585, 9134, 51214],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Conuan",
+          "start": 67.0,
+          "end": 67.5,
+          "probability": 0.4815853397403771
+        },
+        {
+          "word": " Stopped",
+          "start": 67.5,
+          "end": 68.0,
+          "probability": 0.622015580534935
+        },
+        {
+          "word": " telling",
+          "start": 68.0,
+          "end": 68.1,
+          "probability": 0.9379322528839111
+        },
+        {
+          "word": " lies",
+          "start": 68.1,
+          "end": 68.52,
+          "probability": 0.7572970390319824
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "seek": 5220,
+      "start": 69.53999999999999,
+      "end": 71.4,
+      "text": " Did you really kill your wife?",
+      "tokens": [51214, 2589, 291, 534, 1961, 428, 3836, 30, 51314],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Did",
+          "start": 69.53999999999999,
+          "end": 70.14,
+          "probability": 0.06819632649421692
+        },
+        {
+          "word": " you",
+          "start": 70.14,
+          "end": 70.34,
+          "probability": 0.9969834685325623
+        },
+        {
+          "word": " really",
+          "start": 70.34,
+          "end": 70.66,
+          "probability": 0.9956080317497253
+        },
+        {
+          "word": " kill",
+          "start": 70.66,
+          "end": 70.94,
+          "probability": 0.979853630065918
+        },
+        {
+          "word": " your",
+          "start": 70.94,
+          "end": 71.18,
+          "probability": 0.9930492639541626
+        },
+        {
+          "word": " wife?",
+          "start": 71.18,
+          "end": 71.4,
+          "probability": 0.9920448064804077
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "seek": 5220,
+      "start": 71.66,
+      "end": 74.6,
+      "text": " Pickled in formed aldi height",
+      "tokens": [51414, 14129, 1493, 294, 8693, 16798, 72, 6681, 51514],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Pickled",
+          "start": 71.66,
+          "end": 72.02,
+          "probability": 0.47380211018025875
+        },
+        {
+          "word": " in",
+          "start": 72.02,
+          "end": 73.58,
+          "probability": 0.8836771249771118
+        },
+        {
+          "word": " formed",
+          "start": 73.58,
+          "end": 73.78,
+          "probability": 0.8540201783180237
+        },
+        {
+          "word": " aldi",
+          "start": 73.78,
+          "end": 74.28,
+          "probability": 0.9775757491588593
+        },
+        {
+          "word": " height",
+          "start": 74.28,
+          "end": 74.6,
+          "probability": 0.8217520713806152
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "seek": 5220,
+      "start": 75.58000000000001,
+      "end": 77.56,
+      "text": " Kiss of death and homicide",
+      "tokens": [51514, 24297, 295, 2966, 293, 49411, 51614],
+      "temperature": 1.0,
+      "avg_logprob": -1.104318618774414,
+      "compression_ratio": 1.9444444444444444,
+      "no_speech_prob": 0.0702362209558487,
+      "words": [
+        {
+          "word": " Kiss",
+          "start": 75.58000000000001,
+          "end": 76.18,
+          "probability": 0.9603462219238281
+        },
+        {
+          "word": " of",
+          "start": 76.18,
+          "end": 76.34,
+          "probability": 0.9763904809951782
+        },
+        {
+          "word": " death",
+          "start": 76.34,
+          "end": 76.6,
+          "probability": 0.975934624671936
+        },
+        {
+          "word": " and",
+          "start": 76.6,
+          "end": 76.86,
+          "probability": 0.9898813366889954
+        },
+        {
+          "word": " homicide",
+          "start": 76.86,
+          "end": 77.56,
+          "probability": 0.9557263255119324
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "seek": 8220,
+      "start": 91.98,
+      "end": 95.82,
+      "text": " What kind of monster have you let yourself become?",
+      "tokens": [
+        50364, 708, 733, 295, 10090, 362, 291, 718, 1803, 1813, 30, 51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29763963222503664,
+      "compression_ratio": 1.2719298245614035,
+      "no_speech_prob": 0.6604778170585632,
+      "words": [
+        {
+          "word": " What",
+          "start": 91.98,
+          "end": 92.54,
+          "probability": 0.6071584224700928
+        },
+        {
+          "word": " kind",
+          "start": 92.54,
+          "end": 92.82,
+          "probability": 0.9641205072402954
+        },
+        {
+          "word": " of",
+          "start": 92.82,
+          "end": 92.98,
+          "probability": 0.9940819144248962
+        },
+        {
+          "word": " monster",
+          "start": 92.98,
+          "end": 93.22,
+          "probability": 0.9562391638755798
+        },
+        {
+          "word": " have",
+          "start": 93.22,
+          "end": 93.54,
+          "probability": 0.9675324559211731
+        },
+        {
+          "word": " you",
+          "start": 93.54,
+          "end": 93.82,
+          "probability": 0.992082953453064
+        },
+        {
+          "word": " let",
+          "start": 93.82,
+          "end": 94.02,
+          "probability": 0.766567587852478
+        },
+        {
+          "word": " yourself",
+          "start": 94.02,
+          "end": 94.74,
+          "probability": 0.9881234765052795
+        },
+        {
+          "word": " become?",
+          "start": 94.74,
+          "end": 95.82,
+          "probability": 0.975765585899353
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "seek": 8220,
+      "start": 98.36,
+      "end": 101.58,
+      "text": " How many women are still out there on your farm?",
+      "tokens": [
+        51114, 1012, 867, 2266, 366, 920, 484, 456, 322, 428, 5421, 30, 51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29763963222503664,
+      "compression_ratio": 1.2719298245614035,
+      "no_speech_prob": 0.6604778170585632,
+      "words": [
+        {
+          "word": " How",
+          "start": 98.36,
+          "end": 98.52,
+          "probability": 0.7744312882423401
+        },
+        {
+          "word": " many",
+          "start": 98.52,
+          "end": 98.76,
+          "probability": 0.993357241153717
+        },
+        {
+          "word": " women",
+          "start": 98.76,
+          "end": 99.2,
+          "probability": 0.9924977421760559
+        },
+        {
+          "word": " are",
+          "start": 99.2,
+          "end": 99.46,
+          "probability": 0.9950650334358215
+        },
+        {
+          "word": " still",
+          "start": 99.46,
+          "end": 99.72,
+          "probability": 0.9969390630722046
+        },
+        {
+          "word": " out",
+          "start": 99.72,
+          "end": 99.98,
+          "probability": 0.9886760711669922
+        },
+        {
+          "word": " there",
+          "start": 99.98,
+          "end": 100.26,
+          "probability": 0.9981093406677246
+        },
+        {
+          "word": " on",
+          "start": 100.26,
+          "end": 100.5,
+          "probability": 0.9817090034484863
+        },
+        {
+          "word": " your",
+          "start": 100.5,
+          "end": 100.96,
+          "probability": 0.996857762336731
+        },
+        {
+          "word": " farm?",
+          "start": 100.96,
+          "end": 101.58,
+          "probability": 0.9873451590538025
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "seek": 8220,
+      "start": 104.2,
+      "end": 107.6,
+      "text": " Your bare hands, their necks you choked there",
+      "tokens": [
+        51414, 2260, 6949, 2377, 11, 641, 408, 2761, 291, 417, 9511, 456, 51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.29763963222503664,
+      "compression_ratio": 1.2719298245614035,
+      "no_speech_prob": 0.6604778170585632,
+      "words": [
+        {
+          "word": " Your",
+          "start": 104.2,
+          "end": 104.46,
+          "probability": 0.9462031126022339
+        },
+        {
+          "word": " bare",
+          "start": 104.46,
+          "end": 104.7,
+          "probability": 0.9847716689109802
+        },
+        {
+          "word": " hands,",
+          "start": 104.7,
+          "end": 105.16,
+          "probability": 0.9671697020530701
+        },
+        {
+          "word": " their",
+          "start": 105.38,
+          "end": 105.44,
+          "probability": 0.8438559770584106
+        },
+        {
+          "word": " necks",
+          "start": 105.44,
+          "end": 105.86,
+          "probability": 0.9434774816036224
+        },
+        {
+          "word": " you",
+          "start": 105.86,
+          "end": 106.24,
+          "probability": 0.42041125893592834
+        },
+        {
+          "word": " choked",
+          "start": 106.24,
+          "end": 106.6,
+          "probability": 0.6919279992580414
+        },
+        {
+          "word": " there",
+          "start": 106.6,
+          "end": 107.6,
+          "probability": 0.43204498291015625
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "seek": 10760,
+      "start": 109.94,
+      "end": 118.42,
+      "text": " Your dark collection grows but Vela, your cold heart stays forever broken",
+      "tokens": [
+        50414, 2260, 2877, 5765, 13156, 457, 691, 4053, 11, 428, 3554, 1917,
+        10834, 5680, 5463, 50914
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3603998330923227,
+      "compression_ratio": 1.463855421686747,
+      "no_speech_prob": 0.07052633166313171,
+      "words": [
+        {
+          "word": " Your",
+          "start": 109.94,
+          "end": 110.54,
+          "probability": 0.40581342577934265
+        },
+        {
+          "word": " dark",
+          "start": 110.54,
+          "end": 111.04,
+          "probability": 0.9799680709838867
+        },
+        {
+          "word": " collection",
+          "start": 111.04,
+          "end": 111.9,
+          "probability": 0.9714549779891968
+        },
+        {
+          "word": " grows",
+          "start": 111.9,
+          "end": 112.36,
+          "probability": 0.9944189786911011
+        },
+        {
+          "word": " but",
+          "start": 112.36,
+          "end": 112.74,
+          "probability": 0.44864198565483093
+        },
+        {
+          "word": " Vela,",
+          "start": 112.74,
+          "end": 113.46,
+          "probability": 0.38618865609169006
+        },
+        {
+          "word": " your",
+          "start": 113.98,
+          "end": 114.26,
+          "probability": 0.8697293996810913
+        },
+        {
+          "word": " cold",
+          "start": 114.26,
+          "end": 114.64,
+          "probability": 0.997617781162262
+        },
+        {
+          "word": " heart",
+          "start": 114.64,
+          "end": 115.44,
+          "probability": 0.9887372255325317
+        },
+        {
+          "word": " stays",
+          "start": 115.44,
+          "end": 116.0,
+          "probability": 0.38893407583236694
+        },
+        {
+          "word": " forever",
+          "start": 116.0,
+          "end": 117.1,
+          "probability": 0.9895435571670532
+        },
+        {
+          "word": " broken",
+          "start": 117.1,
+          "end": 118.42,
+          "probability": 0.9884040355682373
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "seek": 10760,
+      "start": 120.19999999999999,
+      "end": 122.88,
+      "text": " Confused of telling lies",
+      "tokens": [50914, 11701, 4717, 295, 3585, 9134, 51114],
+      "temperature": 0.0,
+      "avg_logprob": -0.3603998330923227,
+      "compression_ratio": 1.463855421686747,
+      "no_speech_prob": 0.07052633166313171,
+      "words": [
+        {
+          "word": " Confused",
+          "start": 120.19999999999999,
+          "end": 120.8,
+          "probability": 0.16884363815188408
+        },
+        {
+          "word": " of",
+          "start": 120.8,
+          "end": 120.98,
+          "probability": 0.7219375371932983
+        },
+        {
+          "word": " telling",
+          "start": 120.98,
+          "end": 121.22,
+          "probability": 0.9779407978057861
+        },
+        {
+          "word": " lies",
+          "start": 121.22,
+          "end": 122.88,
+          "probability": 0.9984092116355896
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "seek": 10760,
+      "start": 122.88,
+      "end": 124.58,
+      "text": " Did you really kill your wife?",
+      "tokens": [51114, 2589, 291, 534, 1961, 428, 3836, 30, 51214],
+      "temperature": 0.0,
+      "avg_logprob": -0.3603998330923227,
+      "compression_ratio": 1.463855421686747,
+      "no_speech_prob": 0.07052633166313171,
+      "words": [
+        {
+          "word": " Did",
+          "start": 122.88,
+          "end": 123.34,
+          "probability": 0.6289788484573364
+        },
+        {
+          "word": " you",
+          "start": 123.34,
+          "end": 123.54,
+          "probability": 0.9967113733291626
+        },
+        {
+          "word": " really",
+          "start": 123.54,
+          "end": 123.96,
+          "probability": 0.9971530437469482
+        },
+        {
+          "word": " kill",
+          "start": 123.96,
+          "end": 124.1,
+          "probability": 0.9916314482688904
+        },
+        {
+          "word": " your",
+          "start": 124.1,
+          "end": 124.4,
+          "probability": 0.9958413243293762
+        },
+        {
+          "word": " wife?",
+          "start": 124.4,
+          "end": 124.58,
+          "probability": 0.9799378514289856
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "seek": 10760,
+      "start": 124.66,
+      "end": 127.6,
+      "text": " Portia, Rita and I were dead, pickled in from all the heights",
+      "tokens": [
+        51214, 6733, 654, 11, 32672, 293, 286, 645, 3116, 11, 38076, 294, 490,
+        439, 264, 25930, 51364
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3603998330923227,
+      "compression_ratio": 1.463855421686747,
+      "no_speech_prob": 0.07052633166313171,
+      "words": [
+        {
+          "word": " Portia,",
+          "start": 124.66,
+          "end": 125.12,
+          "probability": 0.3077678233385086
+        },
+        {
+          "word": " Rita",
+          "start": 125.14,
+          "end": 125.34,
+          "probability": 0.3055459260940552
+        },
+        {
+          "word": " and",
+          "start": 125.34,
+          "end": 125.58,
+          "probability": 0.7144413590431213
+        },
+        {
+          "word": " I",
+          "start": 125.58,
+          "end": 125.64,
+          "probability": 0.6266358494758606
+        },
+        {
+          "word": " were",
+          "start": 125.64,
+          "end": 125.78,
+          "probability": 0.42445242404937744
+        },
+        {
+          "word": " dead,",
+          "start": 125.78,
+          "end": 126.08,
+          "probability": 0.8297832012176514
+        },
+        {
+          "word": " pickled",
+          "start": 126.24,
+          "end": 126.48,
+          "probability": 0.6795351505279541
+        },
+        {
+          "word": " in",
+          "start": 126.48,
+          "end": 126.76,
+          "probability": 0.8948442935943604
+        },
+        {
+          "word": " from",
+          "start": 126.76,
+          "end": 126.92,
+          "probability": 0.4325009286403656
+        },
+        {
+          "word": " all",
+          "start": 126.92,
+          "end": 127.16,
+          "probability": 0.44159361720085144
+        },
+        {
+          "word": " the",
+          "start": 127.16,
+          "end": 127.4,
+          "probability": 0.9767847657203674
+        },
+        {
+          "word": " heights",
+          "start": 127.4,
+          "end": 127.7,
+          "probability": 0.45895901322364807
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "seek": 10760,
+      "start": 128.84,
+      "end": 130.7,
+      "text": " Kiss of death and homicide",
+      "tokens": [51364, 24297, 295, 2966, 293, 49411, 51514],
+      "temperature": 0.0,
+      "avg_logprob": -0.3603998330923227,
+      "compression_ratio": 1.463855421686747,
+      "no_speech_prob": 0.07052633166313171,
+      "words": [
+        {
+          "word": " Kiss",
+          "start": 128.84,
+          "end": 129.32,
+          "probability": 0.4763755798339844
+        },
+        {
+          "word": " of",
+          "start": 129.32,
+          "end": 129.52,
+          "probability": 0.6643179655075073
+        },
+        {
+          "word": " death",
+          "start": 129.52,
+          "end": 129.72,
+          "probability": 0.9679085612297058
+        },
+        {
+          "word": " and",
+          "start": 129.72,
+          "end": 129.92,
+          "probability": 0.9782444834709167
+        },
+        {
+          "word": " homicide",
+          "start": 129.92,
+          "end": 130.7,
+          "probability": 0.5152238607406616
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "seek": 10760,
+      "start": 132.08,
+      "end": 133.74,
+      "text": " Confused of telling lies",
+      "tokens": [51514, 11701, 4717, 295, 3585, 9134, 51714],
+      "temperature": 0.0,
+      "avg_logprob": -0.3603998330923227,
+      "compression_ratio": 1.463855421686747,
+      "no_speech_prob": 0.07052633166313171,
+      "words": [
+        {
+          "word": " Confused",
+          "start": 132.08,
+          "end": 132.68,
+          "probability": 0.8973374962806702
+        },
+        {
+          "word": " of",
+          "start": 132.68,
+          "end": 132.9,
+          "probability": 0.9973598122596741
+        },
+        {
+          "word": " telling",
+          "start": 132.9,
+          "end": 133.14,
+          "probability": 0.9976513981819153
+        },
+        {
+          "word": " lies",
+          "start": 133.14,
+          "end": 133.74,
+          "probability": 0.9997593760490417
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "seek": 13374,
+      "start": 134.74,
+      "end": 136.48,
+      "text": " Did you really kill your wife?",
+      "tokens": [50414, 2589, 291, 534, 1961, 428, 3836, 30, 50514],
+      "temperature": 0.0,
+      "avg_logprob": -0.09284478670930209,
+      "compression_ratio": 1.4759358288770053,
+      "no_speech_prob": 0.056852471083402634,
+      "words": [
+        {
+          "word": " Did",
+          "start": 134.74,
+          "end": 135.18,
+          "probability": 0.4688858091831207
+        },
+        {
+          "word": " you",
+          "start": 135.18,
+          "end": 135.42,
+          "probability": 0.9900187253952026
+        },
+        {
+          "word": " really",
+          "start": 135.42,
+          "end": 135.82,
+          "probability": 0.925732433795929
+        },
+        {
+          "word": " kill",
+          "start": 135.82,
+          "end": 135.96,
+          "probability": 0.5811477899551392
+        },
+        {
+          "word": " your",
+          "start": 135.96,
+          "end": 136.32,
+          "probability": 0.9929702877998352
+        },
+        {
+          "word": " wife?",
+          "start": 136.32,
+          "end": 136.48,
+          "probability": 0.9812109470367432
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "seek": 13374,
+      "start": 136.5,
+      "end": 139.72,
+      "text": " Portia, Rita and I were dead, pickled in from all the heights",
+      "tokens": [
+        50514, 6733, 654, 11, 32672, 293, 286, 645, 3116, 11, 38076, 294, 490,
+        439, 264, 25930, 50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09284478670930209,
+      "compression_ratio": 1.4759358288770053,
+      "no_speech_prob": 0.056852471083402634,
+      "words": [
+        {
+          "word": " Portia,",
+          "start": 136.5,
+          "end": 137.0,
+          "probability": 0.01546980207785964
+        },
+        {
+          "word": " Rita",
+          "start": 137.06,
+          "end": 137.3,
+          "probability": 0.06713713705539703
+        },
+        {
+          "word": " and",
+          "start": 137.3,
+          "end": 137.48,
+          "probability": 0.3966330289840698
+        },
+        {
+          "word": " I",
+          "start": 137.48,
+          "end": 137.6,
+          "probability": 0.8616058230400085
+        },
+        {
+          "word": " were",
+          "start": 137.6,
+          "end": 137.82,
+          "probability": 0.8976994156837463
+        },
+        {
+          "word": " dead,",
+          "start": 137.82,
+          "end": 138.06,
+          "probability": 0.036070968955755234
+        },
+        {
+          "word": " pickled",
+          "start": 138.18,
+          "end": 138.46,
+          "probability": 0.0972781777381897
+        },
+        {
+          "word": " in",
+          "start": 138.46,
+          "end": 138.72,
+          "probability": 0.700028121471405
+        },
+        {
+          "word": " from",
+          "start": 138.72,
+          "end": 138.88,
+          "probability": 0.4833125174045563
+        },
+        {
+          "word": " all",
+          "start": 138.88,
+          "end": 139.1,
+          "probability": 0.6566059589385986
+        },
+        {
+          "word": " the",
+          "start": 139.1,
+          "end": 139.32,
+          "probability": 0.9859207272529602
+        },
+        {
+          "word": " heights",
+          "start": 139.32,
+          "end": 139.72,
+          "probability": 0.4127916395664215
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "seek": 13374,
+      "start": 140.52,
+      "end": 142.6,
+      "text": " Kiss of death and homicide",
+      "tokens": [50664, 24297, 295, 2966, 293, 49411, 50814],
+      "temperature": 0.0,
+      "avg_logprob": -0.09284478670930209,
+      "compression_ratio": 1.4759358288770053,
+      "no_speech_prob": 0.056852471083402634,
+      "words": [
+        {
+          "word": " Kiss",
+          "start": 140.52,
+          "end": 141.28,
+          "probability": 0.4029063582420349
+        },
+        {
+          "word": " of",
+          "start": 141.28,
+          "end": 141.44,
+          "probability": 0.7083449959754944
+        },
+        {
+          "word": " death",
+          "start": 141.44,
+          "end": 141.66,
+          "probability": 0.8721426129341125
+        },
+        {
+          "word": " and",
+          "start": 141.66,
+          "end": 141.82,
+          "probability": 0.9407925605773926
+        },
+        {
+          "word": " homicide",
+          "start": 141.82,
+          "end": 142.6,
+          "probability": 0.22228741645812988
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "seek": 13374,
+      "start": 142.6,
+      "end": 147.86,
+      "text": " You adored your wife until she found herself a lover",
+      "tokens": [
+        50814, 509, 614, 2769, 428, 3836, 1826, 750, 1352, 7530, 257, 18009,
+        51114
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09284478670930209,
+      "compression_ratio": 1.4759358288770053,
+      "no_speech_prob": 0.056852471083402634,
+      "words": [
+        {
+          "word": " You",
+          "start": 142.6,
+          "end": 143.16,
+          "probability": 0.8391990065574646
+        },
+        {
+          "word": " adored",
+          "start": 143.16,
+          "end": 143.52,
+          "probability": 0.8986022472381592
+        },
+        {
+          "word": " your",
+          "start": 143.52,
+          "end": 143.92,
+          "probability": 0.995358407497406
+        },
+        {
+          "word": " wife",
+          "start": 143.92,
+          "end": 144.5,
+          "probability": 0.9941080808639526
+        },
+        {
+          "word": " until",
+          "start": 144.5,
+          "end": 145.02,
+          "probability": 0.7662544250488281
+        },
+        {
+          "word": " she",
+          "start": 145.02,
+          "end": 145.44,
+          "probability": 0.9908792972564697
+        },
+        {
+          "word": " found",
+          "start": 145.44,
+          "end": 145.94,
+          "probability": 0.986426591873169
+        },
+        {
+          "word": " herself",
+          "start": 145.94,
+          "end": 146.64,
+          "probability": 0.9887632131576538
+        },
+        {
+          "word": " a",
+          "start": 146.64,
+          "end": 147.18,
+          "probability": 0.9891930222511292
+        },
+        {
+          "word": " lover",
+          "start": 147.18,
+          "end": 147.86,
+          "probability": 0.9946703314781189
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "seek": 13374,
+      "start": 148.74,
+      "end": 153.94,
+      "text": " But you made sure there was no happy ever after",
+      "tokens": [
+        51114, 583, 291, 1027, 988, 456, 390, 572, 2055, 1562, 934, 51414
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09284478670930209,
+      "compression_ratio": 1.4759358288770053,
+      "no_speech_prob": 0.056852471083402634,
+      "words": [
+        {
+          "word": " But",
+          "start": 148.74,
+          "end": 149.26,
+          "probability": 0.9367267489433289
+        },
+        {
+          "word": " you",
+          "start": 149.26,
+          "end": 149.56,
+          "probability": 0.9939422011375427
+        },
+        {
+          "word": " made",
+          "start": 149.56,
+          "end": 149.82,
+          "probability": 0.9500605463981628
+        },
+        {
+          "word": " sure",
+          "start": 149.82,
+          "end": 150.34,
+          "probability": 0.998251736164093
+        },
+        {
+          "word": " there",
+          "start": 150.34,
+          "end": 150.78,
+          "probability": 0.9491607546806335
+        },
+        {
+          "word": " was",
+          "start": 150.78,
+          "end": 151.22,
+          "probability": 0.9974974989891052
+        },
+        {
+          "word": " no",
+          "start": 151.22,
+          "end": 151.52,
+          "probability": 0.9965084195137024
+        },
+        {
+          "word": " happy",
+          "start": 151.52,
+          "end": 152.34,
+          "probability": 0.9736766815185547
+        },
+        {
+          "word": " ever",
+          "start": 152.34,
+          "end": 153.1,
+          "probability": 0.8810242414474487
+        },
+        {
+          "word": " after",
+          "start": 153.1,
+          "end": 153.94,
+          "probability": 0.940298855304718
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "seek": 13374,
+      "start": 154.74,
+      "end": 159.98,
+      "text": " And is still somewhere in your home with all the others",
+      "tokens": [
+        51414, 400, 307, 920, 4079, 294, 428, 1280, 365, 439, 264, 2357, 51714
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.09284478670930209,
+      "compression_ratio": 1.4759358288770053,
+      "no_speech_prob": 0.056852471083402634,
+      "words": [
+        {
+          "word": " And",
+          "start": 154.74,
+          "end": 155.2,
+          "probability": 0.6385719180107117
+        },
+        {
+          "word": " is",
+          "start": 155.2,
+          "end": 155.38,
+          "probability": 0.2564535140991211
+        },
+        {
+          "word": " still",
+          "start": 155.38,
+          "end": 155.74,
+          "probability": 0.3049849271774292
+        },
+        {
+          "word": " somewhere",
+          "start": 155.74,
+          "end": 156.72,
+          "probability": 0.9447653293609619
+        },
+        {
+          "word": " in",
+          "start": 156.72,
+          "end": 157.26,
+          "probability": 0.9836922883987427
+        },
+        {
+          "word": " your",
+          "start": 157.26,
+          "end": 157.58,
+          "probability": 0.9916119575500488
+        },
+        {
+          "word": " home",
+          "start": 157.58,
+          "end": 157.84,
+          "probability": 0.8997518420219421
+        },
+        {
+          "word": " with",
+          "start": 157.84,
+          "end": 158.36,
+          "probability": 0.9384642243385315
+        },
+        {
+          "word": " all",
+          "start": 158.36,
+          "end": 158.74,
+          "probability": 0.9855104684829712
+        },
+        {
+          "word": " the",
+          "start": 158.74,
+          "end": 159.14,
+          "probability": 0.9923467636108398
+        },
+        {
+          "word": " others",
+          "start": 159.14,
+          "end": 159.98,
+          "probability": 0.9946900606155396
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "seek": 15998,
+      "start": 161.36,
+      "end": 166.04,
+      "text": " Carefully preserved, floating blood, strange bodies",
+      "tokens": [
+        50364, 9532, 2277, 22242, 11, 12607, 3390, 11, 5861, 7510, 50864
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14650318757543024,
+      "compression_ratio": 1.3333333333333333,
+      "no_speech_prob": 0.03368308022618294,
+      "words": [
+        {
+          "word": " Carefully",
+          "start": 161.36,
+          "end": 161.86,
+          "probability": 0.9045903980731964
+        },
+        {
+          "word": " preserved,",
+          "start": 161.86,
+          "end": 162.36,
+          "probability": 0.9204155802726746
+        },
+        {
+          "word": " floating",
+          "start": 162.48,
+          "end": 163.22,
+          "probability": 0.8883170485496521
+        },
+        {
+          "word": " blood,",
+          "start": 163.22,
+          "end": 163.98,
+          "probability": 0.967441976070404
+        },
+        {
+          "word": " strange",
+          "start": 164.4,
+          "end": 164.78,
+          "probability": 0.2403525561094284
+        },
+        {
+          "word": " bodies",
+          "start": 164.78,
+          "end": 166.04,
+          "probability": 0.9678065180778503
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "seek": 15998,
+      "start": 175.42,
+      "end": 177.02,
+      "text": " Confused of telling lies",
+      "tokens": [51114, 11701, 4717, 295, 3585, 9134, 51264],
+      "temperature": 0.0,
+      "avg_logprob": -0.14650318757543024,
+      "compression_ratio": 1.3333333333333333,
+      "no_speech_prob": 0.03368308022618294,
+      "words": [
+        {
+          "word": " Confused",
+          "start": 175.42,
+          "end": 175.92,
+          "probability": 0.0839875291530916
+        },
+        {
+          "word": " of",
+          "start": 175.92,
+          "end": 176.16,
+          "probability": 0.4747657775878906
+        },
+        {
+          "word": " telling",
+          "start": 176.16,
+          "end": 176.4,
+          "probability": 0.9645325541496277
+        },
+        {
+          "word": " lies",
+          "start": 176.4,
+          "end": 177.02,
+          "probability": 0.9993829727172852
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "seek": 15998,
+      "start": 177.98,
+      "end": 179.72,
+      "text": " Did you really kill your wife?",
+      "tokens": [51264, 2589, 291, 534, 1961, 428, 3836, 30, 51364],
+      "temperature": 0.0,
+      "avg_logprob": -0.14650318757543024,
+      "compression_ratio": 1.3333333333333333,
+      "no_speech_prob": 0.03368308022618294,
+      "words": [
+        {
+          "word": " Did",
+          "start": 177.98,
+          "end": 178.48,
+          "probability": 0.6915301084518433
+        },
+        {
+          "word": " you",
+          "start": 178.48,
+          "end": 178.7,
+          "probability": 0.9960389137268066
+        },
+        {
+          "word": " really",
+          "start": 178.7,
+          "end": 179.12,
+          "probability": 0.9893970489501953
+        },
+        {
+          "word": " kill",
+          "start": 179.12,
+          "end": 179.22,
+          "probability": 0.9627985954284668
+        },
+        {
+          "word": " your",
+          "start": 179.22,
+          "end": 179.54,
+          "probability": 0.9966668486595154
+        },
+        {
+          "word": " wife?",
+          "start": 179.54,
+          "end": 179.72,
+          "probability": 0.9417129158973694
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "seek": 15998,
+      "start": 179.76,
+      "end": 182.9,
+      "text": " Portia, Rita and I were dead, pickled in from all the heights",
+      "tokens": [
+        51364, 6733, 654, 11, 32672, 293, 286, 645, 3116, 11, 38076, 294, 490,
+        439, 264, 25930, 51514
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14650318757543024,
+      "compression_ratio": 1.3333333333333333,
+      "no_speech_prob": 0.03368308022618294,
+      "words": [
+        {
+          "word": " Portia,",
+          "start": 179.76,
+          "end": 180.26,
+          "probability": 0.05937848566100001
+        },
+        {
+          "word": " Rita",
+          "start": 180.28,
+          "end": 180.42,
+          "probability": 0.000950485176872462
+        },
+        {
+          "word": " and",
+          "start": 180.42,
+          "end": 180.66,
+          "probability": 0.6854415535926819
+        },
+        {
+          "word": " I",
+          "start": 180.66,
+          "end": 180.78,
+          "probability": 0.025345329195261
+        },
+        {
+          "word": " were",
+          "start": 180.78,
+          "end": 180.92,
+          "probability": 0.14505097270011902
+        },
+        {
+          "word": " dead,",
+          "start": 180.92,
+          "end": 181.22,
+          "probability": 0.016664927825331688
+        },
+        {
+          "word": " pickled",
+          "start": 181.38,
+          "end": 181.64,
+          "probability": 0.7940491437911987
+        },
+        {
+          "word": " in",
+          "start": 181.64,
+          "end": 181.92,
+          "probability": 0.786902129650116
+        },
+        {
+          "word": " from",
+          "start": 181.92,
+          "end": 182.1,
+          "probability": 0.5076320767402649
+        },
+        {
+          "word": " all",
+          "start": 182.1,
+          "end": 182.32,
+          "probability": 0.4912203848361969
+        },
+        {
+          "word": " the",
+          "start": 182.32,
+          "end": 182.56,
+          "probability": 0.990379810333252
+        },
+        {
+          "word": " heights",
+          "start": 182.56,
+          "end": 182.9,
+          "probability": 0.2915647327899933
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "seek": 15998,
+      "start": 184.0,
+      "end": 185.8,
+      "text": " Kiss of death and homicide",
+      "tokens": [51514, 24297, 295, 2966, 293, 49411, 51714],
+      "temperature": 0.0,
+      "avg_logprob": -0.14650318757543024,
+      "compression_ratio": 1.3333333333333333,
+      "no_speech_prob": 0.03368308022618294,
+      "words": [
+        {
+          "word": " Kiss",
+          "start": 184.0,
+          "end": 184.5,
+          "probability": 0.15393629670143127
+        },
+        {
+          "word": " of",
+          "start": 184.5,
+          "end": 184.66,
+          "probability": 0.8648473024368286
+        },
+        {
+          "word": " death",
+          "start": 184.66,
+          "end": 184.86,
+          "probability": 0.8601441979408264
+        },
+        {
+          "word": " and",
+          "start": 184.86,
+          "end": 185.08,
+          "probability": 0.9712282419204712
+        },
+        {
+          "word": " homicide",
+          "start": 185.08,
+          "end": 185.8,
+          "probability": 0.37408003211021423
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "seek": 18580,
+      "start": 187.28,
+      "end": 188.86,
+      "text": " Confused of telling lies",
+      "tokens": [50364, 11701, 4717, 295, 3585, 9134, 50564],
+      "temperature": 0.0,
+      "avg_logprob": -0.11386223634084065,
+      "compression_ratio": 1.6796875,
+      "no_speech_prob": 0.588217556476593,
+      "words": [
+        {
+          "word": " Confused",
+          "start": 187.28,
+          "end": 187.8,
+          "probability": 0.03702804399654269
+        },
+        {
+          "word": " of",
+          "start": 187.8,
+          "end": 188.06,
+          "probability": 0.8036885857582092
+        },
+        {
+          "word": " telling",
+          "start": 188.06,
+          "end": 188.32,
+          "probability": 0.9780864119529724
+        },
+        {
+          "word": " lies",
+          "start": 188.32,
+          "end": 188.86,
+          "probability": 0.9978199005126953
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "seek": 18580,
+      "start": 189.85999999999999,
+      "end": 191.66,
+      "text": " Did you really kill your wife?",
+      "tokens": [50564, 2589, 291, 534, 1961, 428, 3836, 30, 50664],
+      "temperature": 0.0,
+      "avg_logprob": -0.11386223634084065,
+      "compression_ratio": 1.6796875,
+      "no_speech_prob": 0.588217556476593,
+      "words": [
+        {
+          "word": " Did",
+          "start": 189.85999999999999,
+          "end": 190.38,
+          "probability": 0.5786167979240417
+        },
+        {
+          "word": " you",
+          "start": 190.38,
+          "end": 190.66,
+          "probability": 0.9941080808639526
+        },
+        {
+          "word": " really",
+          "start": 190.66,
+          "end": 191.02,
+          "probability": 0.9870036244392395
+        },
+        {
+          "word": " kill",
+          "start": 191.02,
+          "end": 191.2,
+          "probability": 0.9555819630622864
+        },
+        {
+          "word": " your",
+          "start": 191.2,
+          "end": 191.48,
+          "probability": 0.9960281848907471
+        },
+        {
+          "word": " wife?",
+          "start": 191.48,
+          "end": 191.66,
+          "probability": 0.9865286350250244
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "seek": 18580,
+      "start": 191.72,
+      "end": 194.84,
+      "text": " Portia, Rita and I were dead, pickled in from all the heights",
+      "tokens": [
+        50664, 6733, 654, 11, 32672, 293, 286, 645, 3116, 11, 38076, 294, 490,
+        439, 264, 25930, 50814
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.11386223634084065,
+      "compression_ratio": 1.6796875,
+      "no_speech_prob": 0.588217556476593,
+      "words": [
+        {
+          "word": " Portia,",
+          "start": 191.72,
+          "end": 192.18,
+          "probability": 0.11573368986137211
+        },
+        {
+          "word": " Rita",
+          "start": 192.22,
+          "end": 192.42,
+          "probability": 0.015973607078194618
+        },
+        {
+          "word": " and",
+          "start": 192.42,
+          "end": 192.64,
+          "probability": 0.433607816696167
+        },
+        {
+          "word": " I",
+          "start": 192.64,
+          "end": 192.76,
+          "probability": 0.12231046706438065
+        },
+        {
+          "word": " were",
+          "start": 192.76,
+          "end": 192.94,
+          "probability": 0.2085396945476532
+        },
+        {
+          "word": " dead,",
+          "start": 192.94,
+          "end": 193.18,
+          "probability": 0.005413952749222517
+        },
+        {
+          "word": " pickled",
+          "start": 193.26,
+          "end": 193.6,
+          "probability": 0.05541551858186722
+        },
+        {
+          "word": " in",
+          "start": 193.6,
+          "end": 193.84,
+          "probability": 0.9525659084320068
+        },
+        {
+          "word": " from",
+          "start": 193.84,
+          "end": 194.06,
+          "probability": 0.789848268032074
+        },
+        {
+          "word": " all",
+          "start": 194.06,
+          "end": 194.24,
+          "probability": 0.7704944014549255
+        },
+        {
+          "word": " the",
+          "start": 194.24,
+          "end": 194.48,
+          "probability": 0.9257484078407288
+        },
+        {
+          "word": " heights",
+          "start": 194.48,
+          "end": 194.84,
+          "probability": 0.40352222323417664
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "seek": 18580,
+      "start": 195.92,
+      "end": 197.86,
+      "text": " Kiss of death and homicide",
+      "tokens": [50814, 24297, 295, 2966, 293, 49411, 50964],
+      "temperature": 0.0,
+      "avg_logprob": -0.11386223634084065,
+      "compression_ratio": 1.6796875,
+      "no_speech_prob": 0.588217556476593,
+      "words": [
+        {
+          "word": " Kiss",
+          "start": 195.92,
+          "end": 196.44,
+          "probability": 0.6669532060623169
+        },
+        {
+          "word": " of",
+          "start": 196.44,
+          "end": 196.68,
+          "probability": 0.8117532730102539
+        },
+        {
+          "word": " death",
+          "start": 196.68,
+          "end": 196.84,
+          "probability": 0.8383080363273621
+        },
+        {
+          "word": " and",
+          "start": 196.84,
+          "end": 197.04,
+          "probability": 0.9450958967208862
+        },
+        {
+          "word": " homicide",
+          "start": 197.04,
+          "end": 197.86,
+          "probability": 0.19340528547763824
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "seek": 18580,
+      "start": 199.0,
+      "end": 201.0,
+      "text": " Of death and homicide",
+      "tokens": [51014, 2720, 2966, 293, 49411, 51114],
+      "temperature": 0.0,
+      "avg_logprob": -0.11386223634084065,
+      "compression_ratio": 1.6796875,
+      "no_speech_prob": 0.588217556476593,
+      "words": [
+        {
+          "word": " Of",
+          "start": 199.0,
+          "end": 199.52,
+          "probability": 0.15447857975959778
+        },
+        {
+          "word": " death",
+          "start": 199.52,
+          "end": 199.82,
+          "probability": 0.9891738891601562
+        },
+        {
+          "word": " and",
+          "start": 199.82,
+          "end": 200.06,
+          "probability": 0.998683512210846
+        },
+        {
+          "word": " homicide",
+          "start": 200.06,
+          "end": 201.0,
+          "probability": 0.9062154293060303
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "seek": 18580,
+      "start": 201.92,
+      "end": 203.94,
+      "text": " Of death and homicide",
+      "tokens": [51164, 2720, 2966, 293, 49411, 51264],
+      "temperature": 0.0,
+      "avg_logprob": -0.11386223634084065,
+      "compression_ratio": 1.6796875,
+      "no_speech_prob": 0.588217556476593,
+      "words": [
+        {
+          "word": " Of",
+          "start": 201.92,
+          "end": 202.44,
+          "probability": 0.38776272535324097
+        },
+        {
+          "word": " death",
+          "start": 202.44,
+          "end": 202.76,
+          "probability": 0.9987364411354065
+        },
+        {
+          "word": " and",
+          "start": 202.76,
+          "end": 203.0,
+          "probability": 0.9994953870773315
+        },
+        {
+          "word": " homicide",
+          "start": 203.0,
+          "end": 203.94,
+          "probability": 0.9913429021835327
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "seek": 18580,
+      "start": 204.73999999999998,
+      "end": 206.76,
+      "text": " Kiss of death and homicide",
+      "tokens": [51314, 24297, 295, 2966, 293, 49411, 51414],
+      "temperature": 0.0,
+      "avg_logprob": -0.11386223634084065,
+      "compression_ratio": 1.6796875,
+      "no_speech_prob": 0.588217556476593,
+      "words": [
+        {
+          "word": " Kiss",
+          "start": 204.73999999999998,
+          "end": 205.26,
+          "probability": 0.9742717146873474
+        },
+        {
+          "word": " of",
+          "start": 205.26,
+          "end": 205.46,
+          "probability": 0.9981346130371094
+        },
+        {
+          "word": " death",
+          "start": 205.46,
+          "end": 205.64,
+          "probability": 0.9988870024681091
+        },
+        {
+          "word": " and",
+          "start": 205.64,
+          "end": 205.92,
+          "probability": 0.9993605017662048
+        },
+        {
+          "word": " homicide",
+          "start": 205.92,
+          "end": 206.76,
+          "probability": 0.9962493777275085
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "seek": 21580,
+      "start": 215.8,
+      "end": 215.8,
+      "text": "",
+      "tokens": [],
+      "temperature": 0.0,
+      "avg_logprob": -0.6922037601470947,
+      "compression_ratio": 0.7419354838709677,
+      "no_speech_prob": 0.984411895275116,
+      "words": []
+    }
+  ],
+  "language": "en"
+}
