@@ -20,8 +20,6 @@ def parse_segments(segments):
 
   return words
 
-# Opening JSON file
-
 def parse_lyrics(data):
   words = data.split('\n')
   res = []
@@ -102,30 +100,4 @@ def match_text(transcript, actual_lyrics):
       "end": segment['end'],
       "words": replace_words.replace_words(actual_segment.strip(), nums=segment['words'])
     })
-  save_file('text_replaced.txt', parse_words_to_text(result))
   return result
-
-def parse_segments_from_file(filename):
-  f = open(filename)
-  data = json.load(f)
-
-  return data['segments']
-
-def parse_words_to_text(segments):
-  result = ''
-  for segment in segments:
-    for word in segment['words']:
-      result += word['word'].strip()
-      result += ' '
-    result += '\n'
-  return result
-
-def save_file(filename, content):
-  f = open(filename, "a")
-  f.write(content)
-  f.close()
-
-# match_text(parse_segments_from_file('transcript_bela_medium.json'), 'actual_lyrics.txt')
-# save_file('text_transcribed.txt', parse_words_to_text(parse_segments_from_file('transcript_bela_medium.json')))
-
-
