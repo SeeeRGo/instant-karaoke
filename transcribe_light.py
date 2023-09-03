@@ -6,13 +6,14 @@ from match_text import match_text, parse_segments
 from dotenv import load_dotenv
 
 def separate_file(filename, output_path):
-  separator = Separator('spleeter:2stems')
+  separator = Separator('spleeter:5stems')
 
   audio_loader = AudioAdapter.default()
   sample_rate = 44100
   waveform, _ = audio_loader.load(filename, sample_rate=sample_rate)
 
   prediction = separator.separate(waveform)
+  print('prediction', prediction)
   audio_loader.save(output_path, prediction['vocals'], sample_rate=sample_rate)
 
 def transcribe_file(filename):
@@ -38,7 +39,7 @@ class IterateColorSeparated(Scene):
     def construct(self):
       last_end = 0
       output_path = './output/accompaniment.wav'
-      separate_file(self.filename, './output/accompaniment.wav')
+      separate_file(self.filename, './output/vocals.wav')
       # segments = parse_segments_from_file(output_path)
       segments = transcribe_file(output_path)
       segments = parse_segments(segments)
@@ -85,8 +86,9 @@ class IterateColorSeparated(Scene):
 
 if __name__ == "__main__":
   load_dotenv()
-  scene = IterateColorSeparated("01 - Bela Kiss.mp3")
-  scene.render()
+  separate_file("01 - Bela Kiss.mp3", './output/vocals.wav')
+  # scene = IterateColorSeparated("01 - Bela Kiss.mp3")
+  # scene.render()
   # url: str = os.environ.get("SUPABASE_URL")
   # key: str = os.environ.get("SUPABASE_KEY")
   # print(key)

@@ -4,3 +4,4 @@ media/**
 output/**
 secret.json
 .env
+pretrained_models
