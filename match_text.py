@@ -1,6 +1,5 @@
 import json
-from functools import reduce
-from jellyfish import soundex, match_rating_codex, nysiis, jaro_winkler_similarity, jaro_similarity, damerau_levenshtein_distance
+from jellyfish import soundex, jaro_similarity
 import replace_words
  
 def parse_segments(segments):
@@ -22,8 +21,6 @@ def parse_segments(segments):
   return words
 
 # Opening JSON file
-
-# print(parse_segments('transcript.json'))
 
 def parse_lyrics(data):
   words = data.split('\n')
@@ -53,12 +50,9 @@ def match_text(transcript, actual_lyrics):
         is_new_line = word['newline']
         new_match_score = jaro_similarity(segment_codes, actual_segment_codes + word['code'])
         text_match_score = jaro_similarity(text, actual_segment + word['word'])
-        # new_distance = damerau_levenshtein_distance(segment_codes, actual_segment_codes + word['code'])
 
         len_compare_continue = len(text) / len(actual_segment + word['word']) > 1.1
         len_compare_revert = len(text) / len(actual_segment + word['word']) < 0.8
-        # text_compare = text_match_score > text_match 
-        # print('shortness', len(text) / len(actual_segment + word['word']), text, actual_segment + word['word'])
         improved_by = new_match_score - best_match
         improved_by_text = text_match_score - text_match
         newline_condition = 0.2
@@ -71,15 +65,12 @@ def match_text(transcript, actual_lyrics):
           num_lines -= 1
           actual_segment = ''
           break
-        # print(improved_by + improved_by_text + newline_condition, 'word', word['word'])
-        # print(new_match_score + text_match_score)
         base_condition = (improved_by + improved_by_text + newline_condition) > 0 or len_compare_continue
         if base_condition:
           if new_match_score > best_match:
             best_match = new_match_score
           if text_match_score > text_match:
             text_match = text_match_score
-          # distance = new_distance
           actual_segment_codes += word['code']
           actual_segment += word['word']
           actual_segment_codes += ' '
@@ -98,16 +89,12 @@ def match_text(transcript, actual_lyrics):
           if is_new_line:
             processed_lines += 1
           
-          # print('processed_lines', processed_lines, 'num_lines', num_lines)
           if processed_lines > num_lines:
             remaining_words = remaining_words[i:]
             break
 
           actual_segment += word['word']
-          actual_segment += ' '
-
-      # print('other segment', actual_segment)
-          
+          actual_segment += ' '          
 
     result.append({
       "text": segment["text"],
