@@ -87,11 +87,4 @@ class IterateColor(Scene):
           offset = next_offset
 
         self.remove(text1)
-
-# class AddSound(Scene):
-#     def __init__(self, filename, **kwargs):
-#       self.filename = filename
-#       return Scene.__init__(self, **kwargs)
-
-#     def construct(self):
-#       self.add_sound(self.filename)
+        
