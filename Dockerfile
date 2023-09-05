@@ -14,7 +14,7 @@
 #     && echo "conda activate base" >> ~/.bashrc \
 #     && ln -s /opt/conda/bin/conda /usr/bin/conda
 # SHELL ["/bin/bash", "-c"]
-ARG BASE=python:3.9
+ARG BASE=python:3.9.18-alpine
 
 FROM ${BASE}
 
@@ -23,8 +23,9 @@ ENV MODEL_PATH /model
 
 RUN mkdir -p /model
 RUN apt-get update && apt-get install -y ffmpeg libsndfile1 build-essential python3-dev libcairo2-dev libpango1.0-dev
-RUN pip install -U musdb museval manim spleeter==${SPLEETER_VERSION} click==7.1.2 openai-whisper flask==2.0.1 simple-youtube-api
+RUN pip install -U musdb museval manim spleeter==${SPLEETER_VERSION} click==7.1.2 openai-whisper flask==2.0.1
 COPY . /project
+WORKDIR /project
 RUN mkdir -p /output
 ENV FLASK_APP=/project/route.py
 CMD ["flask", "run", "--host=0.0.0.0"]

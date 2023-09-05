@@ -70,7 +70,7 @@ def replace_words(new_text, nums=nums):
 
         current_start += wait
         res.append({
-          "word": word,
+          "text": word,
           "start": current_start,
           "end": current_start + (nums[i]["end"] - nums[i]["start"]) * coef,
         })
@@ -103,7 +103,7 @@ def replace_words(new_text, nums=nums):
             wait = calc_wait['wait']
         current_start += wait
         res.append({
-          "word": word,
+          "text": word,
           "start": current_start,
           "end": current_start + shortened_nums[i]["end"] - shortened_nums[i]["start"]
         })

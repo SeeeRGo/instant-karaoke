@@ -5,7 +5,7 @@ from spleeter.audio.adapter import AudioAdapter
 from match_text import match_text
 
 def separate_file(filename, output_path, vocals_path):
-  separator = Separator('spleeter:5stems')
+  separator = Separator('spleeter:4stems')
 
   audio_loader = AudioAdapter.default()
   sample_rate = 44100
@@ -55,7 +55,7 @@ class IterateColor(Scene):
         for w in word_list:
             wait_time = w['start'] - last_end
             last_end = w['end']
-            word = w['word']
+            word = w['text']
             word_list_parsed.append((w['end'] - w['start'], len(word), wait_time))
             words += f'{word} '
             total += len(word)
@@ -87,4 +87,3 @@ class IterateColor(Scene):
           offset = next_offset
 
         self.remove(text1)
-        
