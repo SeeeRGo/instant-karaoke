@@ -90,6 +90,11 @@ def upload_file():
 		resp = jsonify({'message' : 'Allowed file types are mp3'})
 		resp.status_code = 400
 		return resp
+
+@app.route('/health', methods=['GET'])
+def health_check():
+	resp = jsonify({'message' : 'Up'})
+	return resp
 	
 @app.route('/file-rerender', methods=['POST'])
 def rerender_file():
