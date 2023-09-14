@@ -45,8 +45,7 @@ class IterateColor(Scene):
       except:
         print("separation failed")
       segments = transcribe_file(self.vocals_path)
-      if len(self.lyrics) > 0:
-        segments = match_text(segments, self.lyrics)
+      segments = match_text(segments, self.lyrics)
       self.timeline = segments
       time = 0
 
