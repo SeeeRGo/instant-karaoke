@@ -16,7 +16,7 @@ def separate_file(filename, output_path, vocals_path):
   audio_loader.save(vocals_path, prediction['vocals'], sample_rate=sample_rate)
 
 def transcribe_file(filename):
-  model = whisper.load_model("large-v2")
+  model = whisper.load_model("small")
   result = model.transcribe(filename, word_timestamps=True)
   return result['segments']
 
@@ -40,9 +40,13 @@ class IterateColor(Scene):
 
     def construct(self):
       last_end = 0
-      separate_file(self.filename, self.output_path, self.vocals_path)
+      try:
+        separate_file(self.filename, self.output_path, self.vocals_path)
+      except:
+        print("separation failed")
       segments = transcribe_file(self.vocals_path)
-      segments = match_text(segments, self.lyrics)
+      if len(self.lyrics) > 0:
+        segments = match_text(segments, self.lyrics)
       self.timeline = segments
       time = 0
 

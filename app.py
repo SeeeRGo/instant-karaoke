@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from flask import Flask
 from transcribe import IterateColor
 from animate_timeline import AnimateTimeline
@@ -165,3 +166,6 @@ def rerender_file():
 	resp = jsonify({'message' : 'File successfully rerendered'})
 	resp.status_code = 201
 	return resp
+
+if(__name__) == "__main__":
+	app.run(ssl_context="adhoc")

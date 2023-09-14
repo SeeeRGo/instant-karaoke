@@ -94,10 +94,11 @@ def match_text(transcript, actual_lyrics):
           actual_segment += word['text']
           actual_segment += ' '          
 
+    new_words = replace_words.replace_words(actual_segment.strip(), nums=segment['words'])
     result.append({
-      "text": segment["text"],
+      "text": actual_segment.strip(),
       "start": segment['start'],
       "end": segment['end'],
-      "words": replace_words.replace_words(actual_segment.strip(), nums=segment['words'])
+      "words": new_words
     })
   return result
